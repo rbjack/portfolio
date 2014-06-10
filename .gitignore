@@ -1,0 +1,7 @@
+/app/portfolio/application/config
+/app/portfolio/.sass-cache
+/app/portfolio/application/logs/log-*.php
+/app/portfolio/application/logs/!index.html
+/app/portfolio/application/cache/*
+/app/portfolio/application/cache/!index.html
+/app/portfolio/application/cache/!.htaccess
