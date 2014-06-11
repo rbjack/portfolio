@@ -19,9 +19,11 @@ class Work extends MX_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('list_work');
+		$data['module'] = 'work';
+		$data['view_file'] = 'list_work';
+		echo Modules::run('templates/portfolio', $data);
 	}
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+/* End of file work.php */
+/* Location: .app/portfolio/application/modules/work/controllers/work.php */
