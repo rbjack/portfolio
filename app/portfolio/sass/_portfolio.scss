@@ -1,6 +1,7 @@
 /* portfolio */
 
 $navGutterRight: 14px;
+$colorBlue: #428bca;
 
 //   Layout
 //-------------
@@ -12,6 +13,18 @@ body {
 //-------------
 .header {
 	padding: 0;
+
+	.navbar {
+
+		.navbar-header {
+
+			.navbar-brand {
+				font-weight: bold;
+				letter-spacing: 1px;
+				color: $colorBlue;
+			}
+		}
+	}
 }
 
 @media (min-width: 768px) {
@@ -42,8 +55,6 @@ body {
 					float: right;
 					display: block;
 					margin-right: $navGutterRight;
-					font-weight: bold;
-					letter-spacing: 1px;
 				}
 			}
 
