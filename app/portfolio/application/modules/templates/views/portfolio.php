@@ -16,7 +16,7 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/respond.min.js"></script>
     </head>
-    <body>
+    <body id="<?php echo $module ?>">
         <div class="container-fluid">
             <div class="row">
                 <header class="header col-sm-4">
@@ -28,28 +28,30 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">RBJackson.com</a>
+                            <a class="navbar-brand" href="/">RBJackson.com</a>
                         </div>
-                        <div class="navbar-collapse collapse">
-                            <?php
+                        <div class="navbar-collapse collapse"><?php
+
                                 $work_active = '';
                                 $about_active = '';
                                 $contact_active = '';
+                                $class_state = 'active';
                                 switch($module)
                                 {
                                     case 'work':
-                                        $work_active = 'active';
+                                        $work_active = $class_state;
                                         break;
                                     case 'about':
-                                        $about_active = 'active';
+                                        $about_active = $class_state;
                                         break;
                                     case 'contact':
-                                        $contact_active = 'contact';
+                                        $contact_active = $class_state;
                                         break;
                                 }
                             ?>
+
                             <ul class="nav navbar-nav">
-                                <li class="<?php echo $work_active; ?>"><a href="#">Work</a></li>
+                                <li class="<?php echo $work_active; ?>"><a href="/">Work</a></li>
                                 <li class="<?php echo $about_active; ?>"><a href="about">About</a></li>
                                 <li class="<?php echo $contact_active; ?>"><a href="contact">Contact</a></li>
                             </ul>
