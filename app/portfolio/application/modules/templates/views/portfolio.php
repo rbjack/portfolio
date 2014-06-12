@@ -6,8 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title><?php echo $title ?></title>
         <meta name="description" content="">
+        <meta name="author" content="Richard Jackson" />
+        <meta name="copyright" content="Copyright &copy; 2003-<?php echo date('Y'); ?>, Richard Jackson. All Rights Reserved." />
+        <meta name="keywords" content="front-end web developer, web designer, web developer, web development, web standards, Flash, web, XHTML, CSS, JavaScript, AS3, ActionScript." />
+        
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -68,7 +73,7 @@
         <script>window.jQuery || document.write(unescape('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'))</script>
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics: change UA-XXXXX-X (UA-11924095-1) to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

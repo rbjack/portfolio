@@ -22,6 +22,26 @@ body {
 	background-image: url('images/texture-wood-horizontal.jpg');
 	background-repeat: repeat;
 	background-position: top left;
+}
+
+@media (min-width: 768px) {
+
+	.header {
+		position: fixed;
+		height: 100%;
+		min-height: 100%;
+		background: $colorDarkGray inline-image('gradient.jpg') repeat-y top right;
+		padding-right: $navGutterRight;
+
+		background-image: inline-image('gradient.jpg'), url('images/texture-wood-verticle.jpg');
+		background-repeat: repeat-y, repeat;
+		background-position: top right, top right;
+	}
+}
+
+//   Navigation
+//-----------------
+.header {
 
 	.navbar {
 
@@ -55,23 +75,6 @@ body {
 	}
 }
 
-@media (min-width: 768px) {
-
-	.header {
-		position: fixed;
-		height: 100%;
-		min-height: 100%;
-		background: $colorDarkGray inline-image('gradient.jpg') repeat-y top right;
-		padding-right: $navGutterRight;
-
-		background-image: inline-image('gradient.jpg'), url('images/texture-wood-verticle.jpg');
-		background-repeat: repeat-y, repeat;
-		background-position: top right, top right;
-	}
-}
-
-//   Navigation
-//-----------------
 @media (min-width: 768px) {
 
 	.header {
@@ -142,7 +145,7 @@ body {
 	.content {
 		padding-right: 30px;
 
-		div {
+		div.row {
 			max-width: 582px;
 			padding: 5px 16px 26px 10px;
 			background-color: $colorDarkGray;

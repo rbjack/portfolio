@@ -4,6 +4,7 @@ class Contact extends MX_Controller {
 
 	public function index()
 	{
+		$data['title'] = 'Contact Richard Jackson &mdash; Front-End Web Developer';
 		$data['module'] = 'contact';
 		$data['view_file'] = 'form';
 		echo Modules::run('templates/portfolio', $data);

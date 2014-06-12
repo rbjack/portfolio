@@ -1,5 +1,5 @@
 <!-- Add your site or application content here -->
-                    <div>
+                    <div class="row">
                     	<h3>Richard Jackson</h3>
                         <img class="pull-left img-responsive" src="images/rbjackson.jpg" alt="Richard Jackson" />
                         <p>Making it Clickable</p>

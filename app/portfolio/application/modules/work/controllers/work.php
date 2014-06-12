@@ -4,6 +4,7 @@ class Work extends MX_Controller {
 
 	public function index()
 	{
+		$data['title'] = 'Portfolio of Richard Jackson &mdash; Front-End Web Developer';
 		$data['module'] = 'work';
 		$data['view_file'] = 'list_work';
 		echo Modules::run('templates/portfolio', $data);
