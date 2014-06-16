@@ -1,5 +1,27 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+/*
+* Modified from file: CaptchaSecurityImages.php
+* Author: Simon Jarvis
+* Copyright: 2006 Simon Jarvis
+* Date: 03/08/06
+* Updated: 07/02/07
+* Requirements: PHP 4/5 with GD and FreeType libraries
+* Link: http://www.white-hat-web-design.co.uk/articles/php-captcha.php
+* 
+* This program is free software; you can redistribute it and/or 
+* modify it under the terms of the GNU General Public License 
+* as published by the Free Software Foundation; either version 2 
+* of the License, or (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful, 
+* but WITHOUT ANY WARRANTY; without even the implied warranty of 
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+* GNU General Public License for more details: 
+* http://www.gnu.org/licenses/gpl.html
+*
+*/
+
 class Captcha extends MX_Controller {
 
 	var $font = 'css/fonts/monofont.ttf';
@@ -25,7 +47,7 @@ class Captcha extends MX_Controller {
 		return $code;
 	}
 
-	function CaptchaSecurityImages($width='120',$height='40',$characters='6')
+	function CaptchaSecurityImages($width='120', $height='40', $characters='6')
 	{
 		$code = $this->generateCode($characters);
 
@@ -52,7 +74,7 @@ class Captcha extends MX_Controller {
 			imageline($image, mt_rand(0,$width), mt_rand(0,$height), mt_rand(0,$width), mt_rand(0,$height), $noise_color);
 			imageline($image, mt_rand(0,$width), mt_rand(0,$height), mt_rand(0,$width), mt_rand(0,$height), $noise_color2);
 		}
-		
+
 		/* create textbox and add text */
 		$textbox = imagettfbbox($font_size, 0, $this->font, $code) or die('Error in imagettfbbox function');
 		$x = ($width - $textbox[4])/2;
@@ -64,8 +86,8 @@ class Captcha extends MX_Controller {
 		imagejpeg($image);
 		imagedestroy($image);
 		
-		$captchaCode = array('security_code'=>$code);
-		$this->session->set_userdata($captchaCode);
+		$security_code = array('security_code'=>$code);
+		$this->session->set_userdata($security_code);
 	}
 }
 
