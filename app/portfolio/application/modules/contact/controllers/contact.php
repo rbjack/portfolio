@@ -8,8 +8,8 @@ class Contact extends MX_Controller {
 		$this->load->library('session');
 		$this->load->library('email');
 		
-		$this->form_validation->set_rules('name', 'Name', 'trim|required|min_length[5]|max_length[50]|xss_clean');
-		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|xss_clean');
+		$this->form_validation->set_rules('name', 'Name', 'trim|required|min_length[3]|max_length[50]|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[100]|xss_clean');
 		$this->form_validation->set_rules('message', 'Message', 'trim|required|xss_clean');
 		$this->form_validation->set_rules('captcha', 'Captcha', 'trim|required|exact_length[5]|alhpa_numeric|callback_match_captcha['.set_value('captcha').']');
 		
@@ -20,8 +20,8 @@ class Contact extends MX_Controller {
 		if ($this->form_validation->run($this) !== false)
 		{
 			$this->email->from(set_value('email'), set_value('name'));
-			$this->email->to('richard@rbjackson.com', 'Richard Jackson');
-			$this->email->subject('Website Contact Form');
+			$this->email->to('richard'.'@'.'rbjackson'.'.'.'com', 'Richard Jackson');
+			$this->email->subject('Portfolio Contact Form');
 			$this->email->message(set_value('message'));
 			$this->email->send();
 
@@ -37,7 +37,7 @@ class Contact extends MX_Controller {
 		{
 			return true;
 		}
-		
+
 		$this->form_validation->set_message('match_captcha', 'The %s field did not match.');
 		return false;
 	}
