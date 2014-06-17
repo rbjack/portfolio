@@ -1,27 +1,32 @@
  <div class="row">
                          <form class="form-horizontal" action="contact" method="post" accept-charset="utf-8" role="form"> 
                               <?php
-                                   echo validation_errors();
+                                   if (validation_errors())
+                                   {
+                                        echo '<ul class="errors">'."\n".'<h3>Form Validation Errors</h3>'."\n";
+                                        echo validation_errors('<li class="error">','</li>');
+                                        echo "\n".'</ul>'."\n";
+                                   }
                               ?>
-                              <div class="form-group">
+                              <div class="form-group<?php if(form_error('name')){echo ' error';} ?>">
                                    <label for="name" class="col-sm-2">Name</label>
                                    <div class="col-sm-10">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="" value="<?php echo set_value('name'); ?>">
                                    </div>
                               </div>
-                              <div class="form-group">
+                              <div class="form-group<?php if(form_error('email')){echo ' error';} ?>">
                                    <label for="email" class="col-sm-2">Email</label>
                                    <div class="col-sm-10">
                                         <input type="email" class="form-control" id="email" name="email" placeholder="" value="<?php echo set_value('email'); ?>">
                                    </div>
                               </div>
-                              <div class="form-group">
+                              <div class="form-group<?php if(form_error('message')){echo ' error';} ?>">
                                    <label for="message" class="col-sm-2">Message</label>
                                    <div class="col-sm-10">
                                         <textarea id="message" class="form-control" name="message" rows="5"><?php echo set_value('message'); ?></textarea>
                                    </div>
                               </div>
-                              <div class="form-group">
+                              <div class="form-group<?php if(form_error('captcha')){echo ' error';} ?>">
                                    <label for="captcha" class="col-sm-2 col-xs-3">Captcha</label>
                                    <div class="col-sm-3 col-xs-9">
                                         <img src="captcha" alt="">
