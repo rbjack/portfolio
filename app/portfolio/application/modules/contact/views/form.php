@@ -1,13 +1,13 @@
  <div class="row">
-                         <form class="form-horizontal" action="contact" method="post" accept-charset="utf-8" role="form"> 
-                              <?php
+                         <form class="form-horizontal" action="contact" method="post" accept-charset="utf-8" role="form"><?php
                                    if (validation_errors())
                                    {
-                                        echo '<ul class="errors">'."\n".'<h3>Form Validation Errors</h3>'."\n";
+                                        echo "\n".'<ul class="errors">'."\n".'<h3>Form Validation Errors</h3>'."\n";
                                         echo validation_errors('<li class="error">','</li>');
                                         echo "\n".'</ul>'."\n";
                                    }
                               ?>
+
                               <div class="form-group<?php if(form_error('name')){echo ' error';} ?>">
                                    <label for="name" class="col-sm-2">Name</label>
                                    <div class="col-sm-10">

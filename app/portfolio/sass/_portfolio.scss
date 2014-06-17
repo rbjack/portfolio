@@ -6,13 +6,19 @@ $colorGrayDark: #1f1f1f;
 $colorGrayLight: #2b2b2b;
 $colorWhite: #ffffff;
 $colorYellow: #fdff51;
-$navGutterRight: 14px;
 
 //   Layout
 //-------------
 body {
-	background: $colorGrayLight;
+	background: $colorGrayDark;
 	color: $colorWhite;
+}
+
+@media (min-width: $screen-xs-min) {
+
+	body {
+		background: $colorGrayLight;
+	}
 }
 
 //   Header
@@ -31,7 +37,7 @@ body {
 		background-repeat: repeat-y, repeat;
 		height: 100%;
 		min-height: 100%;
-		padding-right: $navGutterRight;
+		padding-right: 14px;
 		position: fixed;
 	}
 }
@@ -135,18 +141,70 @@ body {
 
 //   Content
 //--------------
+.content {
+
+	.row {
+		background-color: $colorGrayDark;
+		padding: ($grid-gutter-width / 2);
+	}
+
+}
+
+@media (min-width: $screen-xs-min) {
+	
+	.content {
+		
+		.row {
+			margin: 0 0 ($grid-gutter-width / 2); 
+		}
+	}
+}
+
 @media (min-width: $screen-sm-min) {
 
 	.content {
-		padding-right: 30px;
+		padding-right: $grid-gutter-width;
+		margin: 0;
 
-		div.row {
+		.row {
 			background-color: $colorGrayDark;
-			margin: 15px 0;
+			margin: ($grid-gutter-width / 2) 0;
 			max-width: 582px;
-			padding: 5px 16px 26px 10px;
+			padding: ($grid-gutter-width / 2);
 		}
-		
+	}
+}
+
+//   Content->About
+//---------------------
+#about {
+	
+	.content {
+
+		h3 {
+			margin-top: 0;
+		}
+
+		img {
+			margin: 0 auto;
+			padding-bottom: ($grid-gutter-width / 2);
+		}
+	}
+}
+
+@media (min-width: $screen-xs-min) {
+	
+	#about {
+
+		.content {
+
+			img {
+				float: left;
+				margin: 0;
+				padding-bottom: 0;
+				padding-right: ($grid-gutter-width / 2);
+			}
+		}
 	}
 }
 
@@ -154,4 +212,11 @@ body {
 //-----------------------
 #contact {
 
+}
+
+@media (min-width: $screen-xs-min) {
+	
+	#contact {
+
+	}
 }

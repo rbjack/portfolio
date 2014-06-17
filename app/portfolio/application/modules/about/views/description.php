@@ -1,6 +1,6 @@
 <div class="row">
                     	<h3>Richard Jackson</h3>
-                        <img class="pull-left img-responsive" src="files/images/rbjackson.jpg" alt="Richard Jackson" />
+                        <img class="img-responsive" src="files/images/rbjackson.jpg" alt="Richard Jackson" />
                         <p>Making it Clickable</p>
                         <p>I'm a front-end web developer and this site is a showcase of some of my work and abilities.</p>
                         <p>I have been working in the field of web development since 2003 and doing it professionally since 2006. After I graduated from the Art Institute of Portland with a <acronym title="Bachelors of Science">BS</acronym> in Multimedia &amp; Web Design, I was hired by an interactive agency specializing in rich internet Flash applications.</p>
