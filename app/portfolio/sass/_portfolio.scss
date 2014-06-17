@@ -24,7 +24,7 @@ body {
 	background-position: top left;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm-min) {
 
 	.header {
 		position: fixed;
@@ -75,7 +75,7 @@ body {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm-min) {
 
 	.header {
 		
@@ -141,7 +141,7 @@ body {
 
 //   Content
 //--------------
-@media (min-width: 768px) {
+@media (min-width: $screen-sm-min) {
 
 	.content {
 		padding-right: 30px;
