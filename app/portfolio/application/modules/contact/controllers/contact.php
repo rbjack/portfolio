@@ -19,10 +19,10 @@ class Contact extends MX_Controller {
 
 		if ($this->form_validation->run($this) !== false)
 		{
-			$this->email->from($this->input->post('email'), $this->input->post('name'));
+			$this->email->from(set_value('email'), set_value('name'));
 			$this->email->to('richard@rbjackson.com', 'Richard Jackson');
 			$this->email->subject('Website Contact Form');
-			$this->email->message($this->input->post('name'));
+			$this->email->message(set_value('message'));
 			$this->email->send();
 
 			$data['view_file'] = 'thankyou';
@@ -33,13 +33,13 @@ class Contact extends MX_Controller {
 
 	function match_captcha($str)
 	{
-		if ($str !== $this->session->userdata('security_code'))
+		if ($str === $this->session->userdata('security_code'))
 		{
-			$this->form_validation->set_message('match_captcha', 'The %s field did not match.');
-			return false;
+			return true;
 		}
-
-		return true;
+		
+		$this->form_validation->set_message('match_captcha', 'The %s field did not match.');
+		return false;
 	}
 }
 
