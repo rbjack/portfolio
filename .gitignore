@@ -5,3 +5,4 @@
 /app/portfolio/application/cache/*
 /app/portfolio/application/cache/!index.html
 /app/portfolio/application/cache/!.htaccess
+/public/files
