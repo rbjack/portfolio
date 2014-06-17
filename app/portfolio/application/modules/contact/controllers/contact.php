@@ -4,7 +4,9 @@ class Contact extends MX_Controller {
 
 	public function index()
 	{
-		$this->load->library('form_validation', 'session');
+		$this->load->library('form_validation');
+		$this->load->library('session');
+		$this->load->library('email');
 
 		$this->form_validation->set_rules('name', 'Name', 'trim|required|min_length[5]|max_length[50]|xss_clean');
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|xss_clean');
@@ -19,6 +21,12 @@ class Contact extends MX_Controller {
 		{
 			if ($this->session->userdata('security_code') === $this->input->post('captcha'))
 			{
+				$this->email->from($this->input->post('email'), $this->input->post('name'));
+				$this->email->to('richard@rbjackson.com', 'Richard Jackson');
+				$this->email->subject('Website Contact Form');
+				$this->email->message($this->input->post('name'));
+				$this->email->send();
+
 				$data['view_file'] = 'thankyou';
 			}
 		}

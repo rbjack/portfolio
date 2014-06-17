@@ -1,5 +1,4 @@
-<!-- Add your site or application content here -->
-                    <div class="row">
+ <div class="row">
                          <form class="form-horizontal" action="contact" method="post" accept-charset="utf-8" role="form"> 
                               <?php
                                    echo validation_errors();
@@ -25,7 +24,7 @@
                               <div class="form-group">
                                    <label for="captcha" class="col-sm-2 col-xs-3">Captcha</label>
                                    <div class="col-sm-3 col-xs-9">
-                                        <img src="captcha" alt="" class="img-responsive">
+                                        <img src="captcha" alt="">
                                    </div>
                                    <div class="col-sm-7">
                                         <input type="text" class="form-control" id="captcha" name="captcha">

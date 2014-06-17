@@ -232,7 +232,6 @@ AddDefaultCharset utf-8
     RewriteRule ^(.*)$ index.php/$1 [L]
 </IfModule>
 
-
 # ------------------------------------------------------------------------------
 # | Suppressing / Forcing the "www." at the beginning of URLs                  |
 # ------------------------------------------------------------------------------
