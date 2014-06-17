@@ -17,7 +17,7 @@ class Contact extends MX_Controller {
 		$data['module'] = 'contact';
 		$data['view_file'] = 'form';
 
-		if ($this->form_validation->run() !== false)
+		if ($this->form_validation->run($this) !== false)
 		{
 			if ($this->session->userdata('security_code') === $this->input->post('captcha'))
 			{
