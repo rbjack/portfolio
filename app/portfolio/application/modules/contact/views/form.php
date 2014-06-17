@@ -1,4 +1,4 @@
- <div class="row">
+<div class="row block">
                          <form class="form-horizontal" action="contact" method="post" accept-charset="utf-8" role="form"><?php
                                    if (validation_errors())
                                    {

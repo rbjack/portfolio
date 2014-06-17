@@ -10,15 +10,8 @@ $colorYellow: #fdff51;
 //   Layout
 //-------------
 body {
-	background: $colorGrayDark;
+	background: $colorGrayLight;
 	color: $colorWhite;
-}
-
-@media (min-width: $screen-xs-min) {
-
-	body {
-		background: $colorGrayLight;
-	}
 }
 
 //   Header
@@ -143,10 +136,14 @@ body {
 //   Content
 //--------------
 .content {
+	
+	.block {
+		background-color: $colorGrayDark;
+	}
 
 	.row {
-		background-color: $colorGrayDark;
 		padding: ($grid-gutter-width / 2);
+		margin-bottom: ($grid-gutter-width / 2);
 	}
 
 }
@@ -156,7 +153,7 @@ body {
 	.content {
 		
 		.row {
-			margin: 0 0 ($grid-gutter-width / 2); 
+			margin: 0 0 ($grid-gutter-width / 2);
 		}
 	}
 }
@@ -165,10 +162,9 @@ body {
 
 	.content {
 		padding-right: $grid-gutter-width;
-		margin: 0;
+		margin: 0 0 ($grid-gutter-width / 2);
 
 		.row {
-			background-color: $colorGrayDark;
 			margin: ($grid-gutter-width / 2) 0;
 			max-width: 582px;
 			padding: ($grid-gutter-width / 2);

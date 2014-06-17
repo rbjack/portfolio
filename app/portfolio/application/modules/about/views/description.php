@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row block">
                     	<h3>Richard Jackson</h3>
                         <img class="img-responsive" src="files/images/rbjackson.jpg" alt="Richard Jackson" />
                         <p>Making it Clickable</p>
