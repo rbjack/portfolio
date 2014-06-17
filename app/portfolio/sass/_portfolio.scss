@@ -1,41 +1,38 @@
 /* portfolio */
 
-$navGutterRight: 14px;
+$colorBlackLight: #080808;
 $colorBlue: #428bca;
+$colorGrayDark: #1f1f1f;
+$colorGrayLight: #2b2b2b;
 $colorWhite: #ffffff;
-$colorDarkGray: #1f1f1f;
-$colorLightGray: #2b2b2b;
-$colorLightBlack: #080808;
 $colorYellow: #fdff51;
+$navGutterRight: 14px;
 
 //   Layout
 //-------------
 body {
-	background: $colorLightGray;
+	background: $colorGrayLight;
 	color: $colorWhite;
 }
 
 //   Header
 //-------------
 .header {
+	background: url('images/texture-wood-horizontal.jpg') repeat top left;
 	padding: 0;
-	background-image: url('images/texture-wood-horizontal.jpg');
-	background-repeat: repeat;
-	background-position: top left;
 }
 
 @media (min-width: $screen-sm-min) {
 
 	.header {
-		position: fixed;
+		background: $colorGrayDark inline-image('gradient.jpg') repeat-y top right;
+		background-image: inline-image('gradient.jpg'), url('images/texture-wood-verticle.jpg');
+		background-position: top right, top right;
+		background-repeat: repeat-y, repeat;
 		height: 100%;
 		min-height: 100%;
-		background: $colorDarkGray inline-image('gradient.jpg') repeat-y top right;
 		padding-right: $navGutterRight;
-
-		background-image: inline-image('gradient.jpg'), url('images/texture-wood-verticle.jpg');
-		background-repeat: repeat-y, repeat;
-		background-position: top right, top right;
+		position: fixed;
 	}
 }
 
@@ -46,31 +43,29 @@ body {
 	.navbar {
 
 		.navbar-header {
-			background: $colorDarkGray url('images/texture-wood-horizontal.jpg') repeat top left;
+			background: $colorGrayDark url('images/texture-wood-horizontal.jpg') repeat top left;
 
 			.navbar-brand {
+				background: url('images/logo-horizontal.png') no-repeat top right;
+				color: black;
 				font-weight: bold;
 				letter-spacing: 1px;
-				color: black;
-
-				background: url('images/logo-horizontal.png') no-repeat top right;
+				line-height: 40px;
+				margin-bottom: -18px;
 				min-height: 72px;
 				min-width: 220px;
+				padding-left: 40px;
 				position: relative;
 				z-index: 1;
-				margin-bottom: -18px;
-
-				padding-left: 40px;
-				line-height: 40px;
 			}
 
 			.navbar-toggle {
-				background-color: $colorLightBlack;
+				background-color: $colorBlackLight;
 			}
 		}
 
 		.navbar-collapse {
-			background-color: $colorDarkGray;
+			background-color: $colorGrayDark;
 		}
 	}
 }
@@ -80,26 +75,25 @@ body {
 	.header {
 		
 		.navbar {
-			margin-top: 8px;
 			background-color: transparent;
 			border: 0 none;
+			margin-top: 7px;
 
 			.navbar-header {
 				background: none;
 				float: none;
 
 				.navbar-brand {
-					float: right;
-					display: block;
-					margin-right: $navGutterRight;
 					background: url('images/logo-vertical.png') no-repeat top right;
+					color: black;
+					display: block;
+					float: right;
+					line-height: 40px;
+					margin-bottom: 0;
 					min-height: 93px;
 					min-width: 220px;
 					margin-right: -22px;
-					color: black;
-					line-height: 40px;
 					padding-left: 22px;
-					margin-bottom: 0;
 				}
 			}
 
@@ -108,27 +102,27 @@ body {
 				background-color: transparent;
 
 				.nav {
-					float: right;
 					clear: both;
+					float: right;
 
 					li {
 						float: none;
 						margin-top: 12px;
 
 						a {
+							background-color: $colorYellow;
+							color: black;
+							font-weight: bold;
 							padding-top: 8px;
 							padding-bottom: 8px;
 							padding-left: 76px;
-							background-color: $colorYellow;
 							text-align: right;
-							color: black;
-							font-weight: bold;
 						}
 
 						&.active {
 
 							a {
-								background-color: $colorLightBlack;
+								background-color: $colorBlackLight;
 								color: white;
 							}
 						}
@@ -147,10 +141,10 @@ body {
 		padding-right: 30px;
 
 		div.row {
+			background-color: $colorGrayDark;
+			margin: 15px 0;
 			max-width: 582px;
 			padding: 5px 16px 26px 10px;
-			background-color: $colorDarkGray;
-			margin: 15px 0;
 		}
 		
 	}
