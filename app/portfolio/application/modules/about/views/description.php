@@ -8,4 +8,4 @@
                         <p>I like the challenge of taking a complex design comp and transforming it into a usable and engaging website or application. I have learned that there are many ways to design, and that you are only limited by your imagination. When I'm not on the web I like to read books and watch movies.</p>
                         <p>My skills include: HTML5, CSS3, JavaScript, PHP, MySQL, ActionScript 2 &amp; 3.</p>
 						<p>I'm currently looking for any full-time or freelance opportunities. Please <a href="contact">contact me</a> if you have any questions.</p>
-                    </div>
+                </div>

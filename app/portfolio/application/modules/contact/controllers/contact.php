@@ -8,7 +8,7 @@ class Contact extends MX_Controller {
 
 		$this->form_validation->set_rules('name', 'Name', 'trim|required|min_length[5]|max_length[50]|xss_clean');
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|xss_clean');
-		$this->form_validation->set_rules('message', 'Message', 'trim|xss_clean');
+		$this->form_validation->set_rules('message', 'Message', 'trim|required|xss_clean');
 		$this->form_validation->set_rules('captcha', 'Captcha', 'trim|required|exact_length[5]|alhpa_numeric');
 
 		$data['title'] = 'Contact Richard Jackson &mdash; Front-End Web Developer';
