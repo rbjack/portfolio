@@ -2,13 +2,13 @@
                          <form class="form-horizontal" action="contact" method="post" accept-charset="utf-8" role="form"><?php
                                    if (validation_errors())
                                    {
-                                        echo "\n".'<ul class="errors">'."\n".'<h3>Form Validation Errors</h3>'."\n";
+                                        echo "\n".'<ul class="errors col-sm-10 col-sm-push-2">'."\n".'<h3>Form Validation Errors</h3>'."\n";
                                         echo validation_errors('<li class="error">','</li>');
                                         echo "\n".'</ul>'."\n";
                                    }
                               ?>
 
-                              <div class="form-group<?php if(form_error('name')){echo ' error';} ?>">
+                              <div class="form-group<?php if(form_error('name')){echo ' error';} ?> first">
                                    <label for="name" class="col-sm-2">Name</label>
                                    <div class="col-sm-10">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="" value="<?php echo set_value('name'); ?>">
@@ -35,20 +35,24 @@
                                         <input type="text" class="form-control" id="captcha" name="captcha" maxlength="5">
                                    </div>
                               </div>
-                              <button type="submit" class="btn btn-default">Submit</button>
-                              <p>Richard Jackson<br>
-                                   Portland, OR 503.662.2491<br>
-                                   <script type="text/javascript" charset="utf-8">
-                                        <!--
-                                        var pool=">b\&\?rcd\/:ne=s<uj\"k@hatil. omf";
-                                        var pick="=DIC4:L;@KDFGEJ84F5CD46B41?D5A<J9H5JK3<>1?:5E;5J9ED5E@04F5CD46B41?D5A<J9H5JK=7D0";
-                                        var format="";
-                                        for(j=0;j<pick.length;j++) { format+=pool.charAt(pick.charCodeAt(j)-48); }
-                                        document.write(format);
-                                        // -->
-                                   </script>
-                                   <br>
-                                   <br>
-                              </p>
+                              <div class="row info">
+                                   <button type="submit" class="btn btn-default pull-right">Submit</button>
+                                   <div class="col-sm-10 col-sm-push-2">
+                                        <p>Richard Jackson<br>
+                                             Portland, OR 503.662.2491<br>
+                                             <script type="text/javascript" charset="utf-8">
+                                                  <!--
+                                                  var pool=">b\&\?rcd\/:ne=s<uj\"k@hatil. omf";
+                                                  var pick="=DIC4:L;@KDFGEJ84F5CD46B41?D5A<J9H5JK3<>1?:5E;5J9ED5E@04F5CD46B41?D5A<J9H5JK=7D0";
+                                                  var format="";
+                                                  for(j=0;j<pick.length;j++) { format+=pool.charAt(pick.charCodeAt(j)-48); }
+                                                  document.write(format);
+                                                  // -->
+                                             </script>
+                                             <br>
+                                             <br>
+                                        </p>
+                                   </div>
+                              </div>
                          </form>
                     </div>

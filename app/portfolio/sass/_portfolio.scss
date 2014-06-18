@@ -1,5 +1,6 @@
 /* portfolio */
 
+$colorBlack: #000000;
 $colorBlackLight: #080808;
 $colorBlue: #428bca;
 $colorGrayDark: #1f1f1f;
@@ -46,7 +47,7 @@ body {
 
 			.navbar-brand {
 				background: url('images/logo-horizontal.png') no-repeat top right;
-				color: black;
+				color: $colorBlack;
 				font-weight: bold;
 				letter-spacing: 1px;
 				line-height: 40px;
@@ -85,7 +86,7 @@ body {
 
 				.navbar-brand {
 					background: url('images/logo-vertical.png') no-repeat top right;
-					color: black;
+					color: $colorBlack;
 					display: block;
 					float: right;
 					line-height: 40px;
@@ -111,8 +112,9 @@ body {
 
 						a {
 							background-color: $colorYellow;
-							color: black;
+							color: $colorBlack;
 							font-weight: bold;
+							letter-spacing: 0.5px;
 							padding-top: 8px;
 							padding-bottom: 8px;
 							padding-left: 76px;
@@ -124,6 +126,7 @@ body {
 							a {
 								background-color: $colorBlackLight;
 								color: white;
+								font-weight: normal;
 							}
 						}
 					}
@@ -156,7 +159,7 @@ body {
 	
 	.content {
 		
-		.row {
+		.block {
 			margin: 0 0 ($grid-gutter-width / 2);
 		}
 	}
@@ -168,7 +171,7 @@ body {
 		padding-right: $grid-gutter-width;
 		margin: 0 0 ($grid-gutter-width / 2);
 
-		.row {
+		.block {
 			margin: ($grid-gutter-width / 2) 0;
 			max-width: 620px; //582px
 			padding: ($grid-gutter-width / 2);
@@ -227,12 +230,72 @@ body {
 			z-index: 1;
 		}
 	}
+
+	.info {
+		position: relative;
+
+		button {
+			background-color: $colorYellow;
+			border: 0 none;
+			border-radius: 0;
+			clear: both;
+			color: $colorBlack;
+			font-weight: bold;
+			width: 99px;
+		}
+
+		div {
+			clear: both;
+			float: left;
+			padding-left: 0;
+		}
+	}
+
+	ul.errors {
+		background-color: $colorBlack;
+		padding: ($grid-gutter-width / 2);
+
+		h3 {
+			font-size: $font-size-large;
+			margin-top: 0;
+		}
+
+		li {
+			list-style-position: inside;
+		}
+	}
+
+	.form-group.first {
+		clear: left;
+	}
 }
 
 @media (min-width: $screen-xs-min) {
 	
 	#contact {
 
+		.info {
+
+			button {
+				position: absolute;
+				right: ($grid-gutter-width / 2);
+				z-index: 1;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	
+	#contact {
+
+		.info {
+			padding-top: 0;
+
+			div {
+				padding-left: 5px;
+			}
+		}
 	}
 }
 
@@ -251,11 +314,20 @@ body {
 			margin: 0 auto ($line-height-computed / 2);
 		}
 
-		p {
+		p, ul {
 
 			em {
 				color: $colorYellow;
 				font-style: normal;
+			}
+		}
+
+		ul {
+			padding-left: 0;
+
+			li {
+				list-style-position: inside;
+				margin-left: ($grid-gutter-width / 2);
 			}
 		}
 	}
