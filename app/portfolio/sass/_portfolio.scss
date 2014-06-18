@@ -268,8 +268,16 @@ body {
 		}
 	}
 
-	.form-group.first {
-		clear: left;
+	.form-group {
+		
+		&.first {
+			clear: left;
+		}
+
+		label {
+			color: $colorYellow;
+			font-weight: normal;
+		}
 	}
 }
 
@@ -299,6 +307,11 @@ body {
 				padding-left: 5px;
 			}
 		}
+
+		ul.errors {
+			border-right: 4px solid $colorGrayDark;
+			margin-left: 4px;
+		}
 	}
 }
 
@@ -317,9 +330,18 @@ body {
 			padding-left: 2px;
 		}
 
+		.img-container {
+			display: block;
+			margin-bottom: ($line-height-computed / 2);
+
+			.bttrlazyloading-wrapper {
+				margin: 0 auto;
+			}
+		}
+
 		img {
 			border: 1px solid $colorBlackLight;
-			margin: 0 auto ($line-height-computed / 2);
+			margin: 0 auto;
 		}
 
 		p, ul {

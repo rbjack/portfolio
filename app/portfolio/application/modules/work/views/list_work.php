@@ -1,76 +1,132 @@
 <div class="row block">
 						<h3>PSU Admissions</h3>
-						<img src="files/images/psu-admissions.jpg" class="img-responsive" alt="PSU Admissions" />
-						<p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
+						<?php /*<img src="files/images/psu-admissions.jpg" class="img-responsive" alt="PSU Admissions" />*/ ?>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/psu-admissions.jpg" class="img-responsive bttrlazyloading" alt="PSU Admissions" />
+                            <noscript>
+                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
 						<p><em>Task:</em> This purpose of this re-design was to make it easier for students to find the correct course and assistance information.</p>
 						<p><em>Technology:</em> Drupal, JavaScript, jQuery, CSS <a href="http://www.pdx.edu/admissions/" class="button">View Site</a></p>
                     </div>
                     <div class="row block">
                     	<h3>FTFCU Giant Ear</h3>
-                        <img src="files/images/giantear.jpg" class="img-responsive" alt="Giant Ear" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/giantear.jpg" class="img-responsive bttrlazyloading" alt="Giant Ear" />
+                            <noscript>
+                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Giant Ear encourages members of credit unions to give their feed back as to what they would like to see in changes to their credit union.</p>
                         <p><em>Task:</em> The Beer Carousal is the site main functionality feature. It incorporates the Drupal backend CMS to display the companies selection of beers as well as a catalyst to drive the user into the site for more information.</p>
                         <p><em>Technology:</em> Flash, CSS, AS3, PHP mySQL, Ajax</p>
                     </div>
                     <div class="row block">
                     	<h3>BridgePort Brewery</h3>
-                        <img src="files/images/bridgeport.jpg" class="img-responsive" alt="BridgePort Brewery" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/bridgeport.jpg" class="img-responsive bttrlazyloading" alt="BridgePort Brewery" />
+                            <noscript>
+                                <img src="files/images/bridgeport.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Bridgeport Brewery is Oregon's oldest Craft Brewery. Their India Pale Ale, perhaps the brewery's best known beer, and has won a number of awards.</p>
                         <p><em>Task:</em> This micro site was created for First Tech Credit Union. The flash display sends messages via ajax to be evaluated and added to a database. A administration back-end is used to manage the comments.</p>
                         <p><em>Technology:</em> Javascript, jQuery, HTML, CSS, Drupal</p>
                     </div>
                     <div class="row block">
                     	<h3>Produce Row</h3>
-                        <img src="files/images/producerowpdx.jpg" class="img-responsive" alt="Produce Row" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/producerowpdx.jpg" class="img-responsive bttrlazyloading" alt="Produce Row" />
+                            <noscript>
+                                <img src="files/images/producerowpdx.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Produce Row is part of Portland's revitalization project. The site is used to build community awareness of the surrounding business that reside.</p>
                         <p><em>Task:</em> The application incorporated Google Maps API with the Wordpress CMS to dynamically add submitted businesses to display on a interactive map.</p>
                         <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API <a href="http://www.producerowpdx.com/locate/" class="button">View Site</a></p>
                     </div>
                     <div class="row block">
                     	<h3>Trunk Monkey Advertising</h3>
-                        <img src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive" alt="Trunk Monkey" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
+                            <noscript>
+                                <img src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
                         <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
                         <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="button">View Site</a></p>
                     </div>
                     <div class="row block">
                     	<h3>Sorel Boots</h3>
-                        <img src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive" alt="Sorel Facebook Tab" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive bttrlazyloading" alt="Sorel Facebook Tab" />
+                            <noscript>
+                                <img src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Sorel Boots lunched a &ldquo;Get Your Boots Dirty&rdquo; campaign, and used their Facebook account to create a page to continue conversation.</p>
                         <p><em>Task:</em> The Application was to showcase a business owner expressing how she uses Sorel boots in her everyday life. Flash video player was create to facilitate the conversation.</p>
                         <p><em>Technology:</em> Flash CS5, AS3, JavaScript, jQuery, PHP, Facebook API</p>
                     </div>
                     <div class="row block">
                     	<h3>Dante&rsquo;s Inferno</h3>
-                        <img src="files/images/dantesinferno_thumb.jpg" class="img-responsive" alt="Dante&rsquo;s Inferno" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/dantesinferno_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dante&rsquo;s Inferno" />
+                            <noscript>
+                                <img src="files/images/dantesinferno_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Dante&rsquo;s Inferno is a video game created by Electronic Arts Inc. It is about as Italian mercenary Dante who returns home to find that his beloved Beatrice has been murdered. He gives chase and follows her to hell to bring her back.</p>
                         <p><em>Task:</em> This microsite was created as part of a puzzle campaign for EA. It&rsquo;s purpose is to reward dedicated fans a chance to upload their photo and become part of the game.</p>
                         <p><em>Technology:</em> Flash CS4, AS3, Timeline Animation, XHTML, CSS, JavaScript </p>
                     </div>
                     <div class="row block">
                     	<h3>NIKE Corporate Services</h3>
-                        <img src="files/images/nike_thumb.jpg" class="img-responsive" alt="Nike Campus Flash Map" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/nike_thumb.jpg" class="img-responsive bttrlazyloading" alt="Nike Campus Flash Map" />
+                            <noscript>
+                                <img src="files/images/nike_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> NIKE Corporate Services addresses the needs of the employees from administrative &amp; corporate processes to travel &amp; organizational management.</p>
                         <p><em>Task:</em> The interactive map displays information about building and meeting sites at and around WHQ and is accessible through the corporate intranet. The map pulls all information from XML documents that tie into an editable PHP CMS.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML, Javascript <a href="/demo/nike/" class="button">View Demo</a>
                     </div>
                     <div class="row block">
                     	<h3>adidas TLM</h3>
-                        <img src="files/images/adidas_thumb.jpg" class="img-responsive" alt="Adidas Trends &amp; Lifestyle Marketing Image Viewer" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/adidas_thumb.jpg" class="img-responsive bttrlazyloading" alt="Adidas Trends &amp; Lifestyle Marketing Image Viewer" />
+                            <noscript>
+                                <img src="files/images/adidas_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Adidas Trends &amp; Lifestyle Marketing works strategically to increase brand awareness and better the adidas image among a specific target audience of local trendsetter's.</p>
                         <p><em>Task:</em> This Flash site displays product images found in trend setting magazines. It's showcased for the company through their intranet. The image viewer gets the information and image locations from organized objects in an external SWF.</p>
                         <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS <a href="/demo/adidas/" class="button">View Demo</a>
                     </div>
                     <div class="row block">
                     	<h3>Stash Tea</h3>
-                        <img src="files/images/stashtea_thumb.jpg" class="img-responsive" alt="Stash Tea Selector" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/stashtea_thumb.jpg" class="img-responsive bttrlazyloading" alt="Stash Tea Selector" />
+                            <noscript>
+                                <img src="files/images/stashtea_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Stash Tea is one of the largest specialty tea companies in the United States.</p>
                         <p><em>Task:</em> The World of Tea selector helps consumers familiar and not so familiar with tea find suitable types from an interactive set of choices. Tea and Character type are editable from an XML document. Based on the selections the Flash application makes a web service call to a database, returning compatible results.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML</p>
                     </div>
                     <div class="row block">
                     	<h3>New Edge Networks</h3>
-                        <img src="files/images/nen_thumb.jpg" class="img-responsive" alt="New Edge Networks Product Demo" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/nen_thumb.jpg" class="img-responsive bttrlazyloading" alt="New Edge Networks Product Demo" />
+                            <noscript>
+                                <img src="files/images/nen_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> New Edge Networks (NEN) is known for being a single-source provider of network solutions to companies of all sizes and industries.</p>
                         <p><em>Task:</em> This Flash-based product demonstration allows NEN salespeople to showcase the benefits and depth of their suite of network solutions.</p>
                         <ul>
@@ -83,7 +139,12 @@
                     </div>
                     <div class="row block">
                     	<h3>Welch Allyn Clinician Notifier</h3>
-                        <img src="files/images/welchallyn_thumb.jpg" class="img-responsive" alt="Welch Allyn Product Demo" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/welchallyn_thumb.jpg" class="img-responsive bttrlazyloading" alt="Welch Allyn Product Demo" />
+                            <noscript>
+                                <img src="files/images/welchallyn_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Welch Allyn is a global manufacturer of medical diagnostic equipment that helps frontline practitioners work more effectively and efficiently with their patients.</p>
                         <p><em>Task:</em> This Flash-based product demonstration allows Welch Allyn salespeople to showcase their products online or through a PDA device. The application lets viewers select a task or scenario, and then launches a step-by-step animation showing the completion of the task or objective.</p>
                         <ul>
@@ -94,7 +155,12 @@
                     </div>
                     <div class="row block">
                     	<h3>Alta Planning + Design</h3>
-                    	<img src="files/images/alta_thumb.jpg" class="img-responsive" alt="Alta Planning + Design Website" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/alta_thumb.jpg" class="img-responsive bttrlazyloading" alt="Alta Planning + Design Website" />
+                            <noscript>
+                                <img src="files/images/alta_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Alta Planning + Design are the world-leading consultants for sustainable, alternative transportation designs for communities and cities. </p>
                         <p><em>Task:</em> The new re-design and branding of the site was created in XHTML and CSS that was hooked into a .NET CMS. The Slideshow demonstration on the homepage was created by hand on the Flash timeline.</p>
                         <ul>
@@ -106,21 +172,36 @@
                     </div>
                     <div class="row block">
                     	<h3>Lightspeed Technologies</h3>
-                        <img src="files/images/lightspeed_thumb.jpg" class="img-responsive" alt="Lightspeed Technologies Product Demo" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/lightspeed_thumb.jpg" class="img-responsive bttrlazyloading" alt="Lightspeed Technologies Product Demo" />
+                            <noscript>
+                                <img src="files/images/lightspeed_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Lightspeed Technologies is a provider of wireless systems for classroom amplification technology which works to evenly distribute the teacher’s voice throughout the classroom.</p>
                         <p><em>Task:</em> The Flash application demonstrates the benefits of classroom amplification through the use of two products. Each introduction animation sequence can be viewed when the page is refreshed. A custom video player created especially for the site presents video showcasing both products.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML, Timeline Animation</p>
                     </div>
                     <div class="row block">
                     	<h3>The Dapper Frog</h3>
-                        <img src="files/images/dapperfrog_thumb.jpg" class="img-responsive" alt="Dapper Frog Featured Product Navigation" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/dapperfrog_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dapper Frog Featured Product Navigation" />
+                            <noscript>
+                                <img src="files/images/dapperfrog_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> The Dapper Frog provides high-quality art, home d&eacute;cor, and lifestyle products locally through its Oregon chain of retail galleries and worldwide through its web presence.</p>
                         <p><em>Task:</em> The site employs a Flash navigational component that allows the consumer to jump to a specified category location. The four product categories pull the name, image and location for the product links from an XML document that is editable in the .NET CMS framework.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML</p>
                     </div>
                     <div class="row block">
                     	<h3>Market Strategies International</h3>
-                        <img src="files/images/msi_thumb.jpg" class="img-responsive" alt="Market Strategies International Featured Product Navigation" />
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/msi_thumb.jpg" class="img-responsive bttrlazyloading" alt="Market Strategies International Featured Product Navigation" />
+                            <noscript>
+                                <img src="files/images/msi_thumb.jpg" class="img-responsive" alt="" />
+                            </noscript>
+                        </span>
                         <p><em>Company:</em> Market Strategies International is a top-tier research and strategic consulting firm offering custom and syndicated research since 1989.</p>
                         <p><em>Task:</em> The Flash application showcases the five core industry specialties: healthcare, communications, energy, technology, and financial services.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML</p>

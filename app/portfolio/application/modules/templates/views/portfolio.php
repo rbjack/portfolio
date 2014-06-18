@@ -16,7 +16,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/respond.min.js"></script>
@@ -72,6 +71,8 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write(unescape('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'))</script>
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery.bttrlazyloading.min.js"></script>
+        <script src="js/script.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X (UA-11924095-1) to be your site's ID. -->
         <script>
