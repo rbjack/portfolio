@@ -26,13 +26,13 @@
                                         <textarea id="message" class="form-control" name="message" rows="5"><?php echo set_value('message'); ?></textarea>
                                    </div>
                               </div>
-                              <div class="form-group<?php if(form_error('captcha')){echo ' error';} ?>">
-                                   <label for="captcha" class="col-sm-2 col-xs-3">Captcha</label>
-                                   <div class="col-sm-3 col-xs-9">
-                                        <img src="captcha" alt="">
+                              <div class="form-group<?php if(form_error('captcha')){echo ' error';} ?> captcha" style="position: relative;">
+                                   <label for="captcha" class="col-sm-2">Captcha</label>
+                                   <div class="img-container">
+                                        <img src="captcha.jpg" alt="Captcha Code">
                                    </div>
-                                   <div class="col-sm-7">
-                                        <input type="text" class="form-control" id="captcha" name="captcha">
+                                   <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="captcha" name="captcha" maxlength="5">
                                    </div>
                               </div>
                               <button type="submit" class="btn btn-default">Submit</button>
