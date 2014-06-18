@@ -146,6 +146,10 @@ body {
 		margin-bottom: ($grid-gutter-width / 2);
 	}
 
+	a {
+		color: $colorWhite;
+		text-decoration: underline;
+	}
 }
 
 @media (min-width: $screen-xs-min) {
@@ -229,5 +233,30 @@ body {
 	
 	#contact {
 
+	}
+}
+
+//   Content->Work
+//--------------------
+#work {
+	
+	.block {
+
+		h3 {
+			margin-top: 0;
+		}
+
+		img {
+			border: 1px solid $colorBlackLight;
+			margin: 0 auto ($line-height-computed / 2);
+		}
+
+		p {
+
+			em {
+				color: $colorYellow;
+				font-style: normal;
+			}
+		}
 	}
 }
