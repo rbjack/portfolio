@@ -173,7 +173,7 @@ body {
 
 		.block {
 			margin: ($grid-gutter-width / 2) 0;
-			max-width: 620px; //582px
+			max-width: 620px;
 			padding: ($grid-gutter-width / 2);
 		}
 	}
@@ -186,6 +186,7 @@ body {
 	.content {
 
 		h3 {
+			color: $colorYellow;
 			font-size: $font-size-large;
 			letter-spacing: 0.5px;
 			margin-top: 0;
