@@ -305,8 +305,13 @@ body {
 	
 	.block {
 
-		h3 {
+		h3 { 
+			color: $colorYellow;
+			font-size: $font-size-large;
+			font-weight: normal;
+			letter-spacing: 0.5px;
 			margin-top: 0;
+			padding-left: 2px;
 		}
 
 		img {
@@ -315,6 +320,7 @@ body {
 		}
 
 		p, ul {
+			padding-left: 2px;
 
 			em {
 				color: $colorYellow;
@@ -323,7 +329,6 @@ body {
 		}
 
 		ul {
-			padding-left: 0;
 
 			li {
 				list-style-position: inside;
