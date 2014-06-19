@@ -28,6 +28,16 @@ class Contact extends MX_Controller {
 			$data['view_file'] = 'thankyou';
 		}
 		
+		//echo set_value('captcha').' == '.$this->session->userdata('security_code');
+
+		//$security_code = array('security_code'=>'test');
+		//$this->session->userdata(''security_code);
+
+		echo '<div style="display: none;">';
+		print_r($this->session->userdata);
+		echo '</div>';
+
+
 		echo Modules::run('templates/portfolio', $data);
 	}
 

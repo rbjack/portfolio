@@ -30,7 +30,12 @@ class Captcha extends MX_Controller {
 	{
 		$this->load->library('session');
 		$this->session->unset_userdata('security_code');
-		$this->CaptchaSecurityImages('99','34','5');
+
+		$code = $this->generateCode('5');
+		$security_code = array('security_code'=>$code);
+		$this->session->set_userdata($security_code);
+		
+		$this->CaptchaSecurityImages('99','34',$code);
 	}
 
 	function generateCode($characters)
@@ -47,9 +52,9 @@ class Captcha extends MX_Controller {
 		return $code;
 	}
 
-	function CaptchaSecurityImages($width='120', $height='40', $characters='6')
+	function CaptchaSecurityImages($width='120', $height='40', $code)
 	{
-		$code = $this->generateCode($characters);
+		//$code = $this->generateCode($characters);
 
 		/* font size will be 75% of the image height */
 		$font_size = $height * 0.75;
@@ -85,9 +90,6 @@ class Captcha extends MX_Controller {
 		header('Content-Type: image/jpeg');
 		imagejpeg($image);
 		imagedestroy($image);
-		
-		$security_code = array('security_code'=>$code);
-		$this->session->set_userdata($security_code);
 	}
 }
 

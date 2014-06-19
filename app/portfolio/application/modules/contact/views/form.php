@@ -29,7 +29,7 @@
                               <div class="form-group<?php if(form_error('captcha')){echo ' error';} ?> captcha" style="position: relative;">
                                    <label for="captcha" class="col-sm-2">Captcha</label>
                                    <div class="img-container">
-                                        <img src="captcha.jpg" alt="Captcha Code">
+                                        <img src="captcha.jpg?<?php echo rand(); ?>" alt="Captcha Code">
                                    </div>
                                    <div class="col-sm-10">
                                         <input type="text" class="form-control" id="captcha" name="captcha" maxlength="5">
