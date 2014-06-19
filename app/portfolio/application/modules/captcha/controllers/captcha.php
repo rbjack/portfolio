@@ -31,7 +31,7 @@ class Captcha extends MX_Controller {
 		$this->load->library('session');
 		$this->session->unset_userdata('security_code');
 
-		$code = $this->generateCode('5');
+		$code = $this->generateCode(5);
 		$security_code = array('security_code'=>$code);
 		$this->session->set_userdata($security_code);
 		
@@ -54,8 +54,6 @@ class Captcha extends MX_Controller {
 
 	function CaptchaSecurityImages($width='120', $height='40', $code)
 	{
-		//$code = $this->generateCode($characters);
-
 		/* font size will be 75% of the image height */
 		$font_size = $height * 0.75;
 		$image = @imagecreate($width, $height) or die('Cannot initialize new GD image stream');
