@@ -1,6 +1,5 @@
 <div class="row block">
 						<h3>PSU Admissions</h3>
-						<?php /*<img src="files/images/psu-admissions.jpg" class="img-responsive" alt="PSU Admissions" />*/ ?>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/psu-admissions.jpg" class="img-responsive bttrlazyloading" alt="PSU Admissions" />
                             <noscript>
