@@ -360,5 +360,13 @@ body {
 				margin-left: ($grid-gutter-width / 2);
 			}
 		}
+
+		.btn {
+			text-decoration: none;
+			background-color: $colorYellow;
+			border-radius: 0;
+			color: $colorBlack;
+			font-weight: bold;
+		}
 	}
 }

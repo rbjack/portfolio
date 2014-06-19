@@ -9,7 +9,7 @@
                         </span>
                         <p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
 						<p><em>Task:</em> This purpose of this re-design was to make it easier for students to find the correct course and assistance information.</p>
-						<p><em>Technology:</em> Drupal, JavaScript, jQuery, CSS <a href="http://www.pdx.edu/admissions/" class="button">View Site</a></p>
+						<p><em>Technology:</em> Drupal, JavaScript, jQuery, CSS <a href="http://www.pdx.edu/admissions/" class="btn pull-right">View Site</a></p>
                     </div>
                     <div class="row block">
                     	<h3>FTFCU Giant Ear</h3>
@@ -45,7 +45,7 @@
                         </span>
                         <p><em>Company:</em> Produce Row is part of Portland's revitalization project. The site is used to build community awareness of the surrounding business that reside.</p>
                         <p><em>Task:</em> The application incorporated Google Maps API with the Wordpress CMS to dynamically add submitted businesses to display on a interactive map.</p>
-                        <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API <a href="http://www.producerowpdx.com/locate/" class="button">View Site</a></p>
+                        <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API <a href="http://www.producerowpdx.com/locate/" class="btn pull-right">View Site</a></p>
                     </div>
                     <div class="row block">
                     	<h3>Trunk Monkey Advertising</h3>
@@ -57,7 +57,7 @@
                         </span>
                         <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
                         <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
-                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="button">View Site</a></p>
+                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
                     </div>
                     <div class="row block">
                     	<h3>Sorel Boots</h3>
@@ -93,7 +93,7 @@
                         </span>
                         <p><em>Company:</em> NIKE Corporate Services addresses the needs of the employees from administrative &amp; corporate processes to travel &amp; organizational management.</p>
                         <p><em>Task:</em> The interactive map displays information about building and meeting sites at and around WHQ and is accessible through the corporate intranet. The map pulls all information from XML documents that tie into an editable PHP CMS.</p>
-                        <p><em>Technology:</em> Flash CS3, AS3, XML, Javascript <a href="/demo/nike/" class="button">View Demo</a>
+                        <p><em>Technology:</em> Flash CS3, AS3, XML, Javascript <a href="/demo/nike/" class="btn pull-right">View Demo</a>
                     </div>
                     <div class="row block">
                     	<h3>adidas TLM</h3>
@@ -105,7 +105,7 @@
                         </span>
                         <p><em>Company:</em> Adidas Trends &amp; Lifestyle Marketing works strategically to increase brand awareness and better the adidas image among a specific target audience of local trendsetter's.</p>
                         <p><em>Task:</em> This Flash site displays product images found in trend setting magazines. It's showcased for the company through their intranet. The image viewer gets the information and image locations from organized objects in an external SWF.</p>
-                        <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS <a href="/demo/adidas/" class="button">View Demo</a>
+                        <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS <a href="/demo/adidas/" class="btn pull-right">View Demo</a>
                     </div>
                     <div class="row block">
                     	<h3>Stash Tea</h3>
