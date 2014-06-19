@@ -19,25 +19,15 @@ class Contact extends MX_Controller {
 
 		if ($this->form_validation->run($this) !== false)
 		{
+			$email_addr = 'richard'.'@'.'rbjackson'.'.'.'com';
 			$this->email->from(set_value('email'), set_value('name'));
-			$this->email->to('richard'.'@'.'rbjackson'.'.'.'com', 'Richard Jackson');
+			$this->email->to($email_addr, 'Richard Jackson');
 			$this->email->subject('Portfolio Contact Form');
 			$this->email->message(set_value('message'));
 			$this->email->send();
 
 			$data['view_file'] = 'thankyou';
 		}
-		
-		//echo set_value('captcha').' == '.$this->session->userdata('security_code');
-
-		//$security_code = array('security_code'=>'test');
-		//$this->session->userdata(''security_code);
-
-		echo '<div style="display: none;">';
-		print_r($this->session->userdata);
-		echo '</div>';
-
-
 		echo Modules::run('templates/portfolio', $data);
 	}
 
