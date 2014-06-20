@@ -3,7 +3,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/psu-admissions.jpg" class="img-responsive bttrlazyloading" alt="PSU Admissions" />
                             <noscript>
-                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="PSU Admissions" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
@@ -15,7 +15,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/giantear.jpg" class="img-responsive bttrlazyloading" alt="Giant Ear" />
                             <noscript>
-                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="Giant Ear" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Giant Ear encourages members of credit unions to give their feed back as to what they would like to see in changes to their credit union.</p>
@@ -27,7 +27,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/bridgeport.jpg" class="img-responsive bttrlazyloading" alt="BridgePort Brewery" />
                             <noscript>
-                                <img src="files/images/bridgeport.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/bridgeport.jpg" class="img-responsive" alt="BridgePort Brewery" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Bridgeport Brewery is Oregon's oldest Craft Brewery. Their India Pale Ale, perhaps the brewery's best known beer, and has won a number of awards.</p>
@@ -39,7 +39,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/producerowpdx.jpg" class="img-responsive bttrlazyloading" alt="Produce Row" />
                             <noscript>
-                                <img src="files/images/producerowpdx.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/producerowpdx.jpg" class="img-responsive" alt="Produce Row" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Produce Row is part of Portland's revitalization project. The site is used to build community awareness of the surrounding business that reside.</p>
@@ -51,7 +51,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
                             <noscript>
-                                <img src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive" alt="Trunk Monkey" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
@@ -63,7 +63,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive bttrlazyloading" alt="Sorel Facebook Tab" />
                             <noscript>
-                                <img src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive" alt="Sorel Facebook Tab" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Sorel Boots lunched a &ldquo;Get Your Boots Dirty&rdquo; campaign, and used their Facebook account to create a page to continue conversation.</p>
@@ -75,7 +75,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/dantesinferno_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dante&rsquo;s Inferno" />
                             <noscript>
-                                <img src="files/images/dantesinferno_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/dantesinferno_thumb.jpg" class="img-responsive" alt="Dante&rsquo;s Inferno" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Dante&rsquo;s Inferno is a video game created by Electronic Arts Inc. It is about as Italian mercenary Dante who returns home to find that his beloved Beatrice has been murdered. He gives chase and follows her to hell to bring her back.</p>
@@ -87,7 +87,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/nike_thumb.jpg" class="img-responsive bttrlazyloading" alt="Nike Campus Flash Map" />
                             <noscript>
-                                <img src="files/images/nike_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/nike_thumb.jpg" class="img-responsive" alt="Nike Campus Flash Map" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> NIKE Corporate Services addresses the needs of the employees from administrative &amp; corporate processes to travel &amp; organizational management.</p>
@@ -99,7 +99,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/adidas_thumb.jpg" class="img-responsive bttrlazyloading" alt="Adidas Trends &amp; Lifestyle Marketing Image Viewer" />
                             <noscript>
-                                <img src="files/images/adidas_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/adidas_thumb.jpg" class="img-responsive" alt="Adidas Trends &amp; Lifestyle Marketing Image Viewer" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Adidas Trends &amp; Lifestyle Marketing works strategically to increase brand awareness and better the adidas image among a specific target audience of local trendsetter's.</p>
@@ -111,7 +111,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/stashtea_thumb.jpg" class="img-responsive bttrlazyloading" alt="Stash Tea Selector" />
                             <noscript>
-                                <img src="files/images/stashtea_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/stashtea_thumb.jpg" class="img-responsive" alt="Stash Tea Selector" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Stash Tea is one of the largest specialty tea companies in the United States.</p>
@@ -123,7 +123,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/nen_thumb.jpg" class="img-responsive bttrlazyloading" alt="New Edge Networks Product Demo" />
                             <noscript>
-                                <img src="files/images/nen_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/nen_thumb.jpg" class="img-responsive" alt="New Edge Networks Product Demo" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> New Edge Networks (NEN) is known for being a single-source provider of network solutions to companies of all sizes and industries.</p>
@@ -141,7 +141,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/welchallyn_thumb.jpg" class="img-responsive bttrlazyloading" alt="Welch Allyn Product Demo" />
                             <noscript>
-                                <img src="files/images/welchallyn_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/welchallyn_thumb.jpg" class="img-responsive" alt="Welch Allyn Product Demo" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Welch Allyn is a global manufacturer of medical diagnostic equipment that helps frontline practitioners work more effectively and efficiently with their patients.</p>
@@ -157,7 +157,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/alta_thumb.jpg" class="img-responsive bttrlazyloading" alt="Alta Planning + Design Website" />
                             <noscript>
-                                <img src="files/images/alta_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/alta_thumb.jpg" class="img-responsive" alt="Alta Planning + Design Website" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Alta Planning + Design are the world-leading consultants for sustainable, alternative transportation designs for communities and cities. </p>
@@ -174,7 +174,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/lightspeed_thumb.jpg" class="img-responsive bttrlazyloading" alt="Lightspeed Technologies Product Demo" />
                             <noscript>
-                                <img src="files/images/lightspeed_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/lightspeed_thumb.jpg" class="img-responsive" alt="Lightspeed Technologies Product Demo" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Lightspeed Technologies is a provider of wireless systems for classroom amplification technology which works to evenly distribute the teacher’s voice throughout the classroom.</p>
@@ -186,7 +186,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/dapperfrog_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dapper Frog Featured Product Navigation" />
                             <noscript>
-                                <img src="files/images/dapperfrog_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/dapperfrog_thumb.jpg" class="img-responsive" alt="Dapper Frog Featured Product Navigation" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> The Dapper Frog provides high-quality art, home d&eacute;cor, and lifestyle products locally through its Oregon chain of retail galleries and worldwide through its web presence.</p>
@@ -198,7 +198,7 @@
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/msi_thumb.jpg" class="img-responsive bttrlazyloading" alt="Market Strategies International Featured Product Navigation" />
                             <noscript>
-                                <img src="files/images/msi_thumb.jpg" class="img-responsive" alt="" />
+                                <img src="files/images/msi_thumb.jpg" class="img-responsive" alt="Market Strategies International Featured Product Navigation" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> Market Strategies International is a top-tier research and strategic consulting firm offering custom and syndicated research since 1989.</p>
