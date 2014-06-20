@@ -99,7 +99,6 @@ body {
 			}
 
 			.navbar-collapse {
-
 				background-color: transparent;
 
 				.nav {
@@ -332,7 +331,11 @@ body {
 
 		.img-container {
 			display: block;
+			height: 0;
 			margin-bottom: ($line-height-computed / 2);
+			padding-bottom: 62%;
+			position: relative;
+			overflow: hidden;
 
 			.bttrlazyloading-wrapper {
 				margin: 0 auto;
@@ -341,7 +344,12 @@ body {
 
 		img {
 			border: 1px solid $colorBlackLight;
+			height: 100%;
+			left: 0;
 			margin: 0 auto;
+			position: absolute;
+			top: 0;
+			width: 100%;
 		}
 
 		p, ul {
