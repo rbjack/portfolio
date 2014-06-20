@@ -19,7 +19,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> Giant Ear encourages members of credit unions to give their feed back as to what they would like to see in changes to their credit union.</p>
-                        <p><em>Task:</em> The Beer Carousal is the site main functionality feature. It incorporates the Drupal backend CMS to display the companies selection of beers as well as a catalyst to drive the user into the site for more information.</p>
+                        <p><em>Task:</em> This micro site was created for First Tech Credit Union. The flash display sends messages via ajax to be evaluated and added to a database. A administration back-end is used to manage the comments.</p>
                         <p><em>Technology:</em> Flash, CSS, AS3, PHP mySQL, Ajax</p>
                     </div>
                     <div class="row block">
@@ -31,7 +31,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> Bridgeport Brewery is Oregon's oldest Craft Brewery. Their India Pale Ale, perhaps the brewery's best known beer, and has won a number of awards.</p>
-                        <p><em>Task:</em> This micro site was created for First Tech Credit Union. The flash display sends messages via ajax to be evaluated and added to a database. A administration back-end is used to manage the comments.</p>
+                        <p><em>Task:</em> The Beer Carousal is the site main functionality feature. It incorporates the Drupal backend CMS to display the companies selection of beers as well as a catalyst to drive the user into the site for more information.</p>
                         <p><em>Technology:</em> Javascript, jQuery, HTML, CSS, Drupal</p>
                     </div>
                     <div class="row block">
