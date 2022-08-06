@@ -1,4 +1,4 @@
-<div class="row block">
+<div class="row block old">
                         <h3>PSU Admissions</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/psu-admissions.jpg" class="img-responsive bttrlazyloading" alt="PSU Admissions" />
@@ -10,7 +10,19 @@
 						<p><em>Task:</em> This purpose of this re-design was to make it easier for students to find the correct course and assistance information.</p>
 						<p><em>Technology:</em> Drupal, JavaScript, jQuery, CSS <a href="http://www.pdx.edu/admissions/" class="btn pull-right">View Site</a></p>
                     </div>
-                    <div class="row block">
+                    <div class="row block" style="display: none;">
+                        <h3>CMD Agency Website</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/cmdagency-website_thumb.jpg" class="img-responsive bttrlazyloading" alt="CMD Agency Website" />
+                            <noscript>
+                                <img src="files/images/cmdagency-website_thumb.jpg" class="img-responsive" alt="CMD Agency Website" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> </p>
+						<p><em>Task:</em> </p>
+						<p><em>Technology:</em> </p>
+                    </div>
+                    <div class="row block old">
                     	<h3>FTFCU Giant Ear</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/giantear.jpg" class="img-responsive bttrlazyloading" alt="Giant Ear" />
@@ -22,7 +34,7 @@
                         <p><em>Task:</em> This micro site was created for First Tech Credit Union. The flash display sends messages via ajax to be evaluated and added to a database. A administration back-end is used to manage the comments.</p>
                         <p><em>Technology:</em> Flash, CSS, AS3, PHP mySQL, Ajax</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>BridgePort Brewery</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/bridgeport.jpg" class="img-responsive bttrlazyloading" alt="BridgePort Brewery" />
@@ -34,7 +46,7 @@
                         <p><em>Task:</em> The Beer Carousal is the site main functionality feature. It incorporates the Drupal backend CMS to display the companies selection of beers as well as a catalyst to drive the user into the site for more information.</p>
                         <p><em>Technology:</em> Javascript, jQuery, HTML, CSS, Drupal</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Produce Row</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/producerowpdx.jpg" class="img-responsive bttrlazyloading" alt="Produce Row" />
@@ -46,7 +58,7 @@
                         <p><em>Task:</em> The application incorporated Google Maps API with the Wordpress CMS to dynamically add submitted businesses to display on a interactive map.</p>
                         <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API <a href="http://www.producerowpdx.com/locate/" class="btn pull-right">View Site</a></p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old keep">
                     	<h3>Trunk Monkey Advertising</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
@@ -58,7 +70,7 @@
                         <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
                         <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Sorel Boots</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/sorel-get-boots-dirty.jpg" class="img-responsive bttrlazyloading" alt="Sorel Facebook Tab" />
@@ -70,7 +82,7 @@
                         <p><em>Task:</em> The Application was to showcase a business owner expressing how she uses Sorel boots in her everyday life. Flash video player was create to facilitate the conversation.</p>
                         <p><em>Technology:</em> Flash CS5, AS3, JavaScript, jQuery, PHP, Facebook API</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Dante&rsquo;s Inferno</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/dantesinferno_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dante&rsquo;s Inferno" />
@@ -82,7 +94,7 @@
                         <p><em>Task:</em> This microsite was created as part of a puzzle campaign for EA. It&rsquo;s purpose is to reward dedicated fans a chance to upload their photo and become part of the game.</p>
                         <p><em>Technology:</em> Flash CS4, AS3, Timeline Animation, XHTML, CSS, JavaScript </p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>NIKE Corporate Services</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/nike_thumb.jpg" class="img-responsive bttrlazyloading" alt="Nike Campus Flash Map" />
@@ -94,7 +106,7 @@
                         <p><em>Task:</em> The interactive map displays information about building and meeting sites at and around WHQ and is accessible through the corporate intranet. The map pulls all information from XML documents that tie into an editable PHP CMS.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML, Javascript <a href="/demo/nike/" class="btn pull-right">View Demo</a>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>adidas TLM</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/adidas_thumb.jpg" class="img-responsive bttrlazyloading" alt="Adidas Trends &amp; Lifestyle Marketing Image Viewer" />
@@ -106,7 +118,7 @@
                         <p><em>Task:</em> This Flash site displays product images found in trend setting magazines. It's showcased for the company through their intranet. The image viewer gets the information and image locations from organized objects in an external SWF.</p>
                         <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS <a href="/demo/adidas/" class="btn pull-right">View Demo</a>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Stash Tea</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/stashtea_thumb.jpg" class="img-responsive bttrlazyloading" alt="Stash Tea Selector" />
@@ -118,7 +130,7 @@
                         <p><em>Task:</em> The World of Tea selector helps consumers familiar and not so familiar with tea find suitable types from an interactive set of choices. Tea and Character type are editable from an XML document. Based on the selections the Flash application makes a web service call to a database, returning compatible results.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>New Edge Networks</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/nen_thumb.jpg" class="img-responsive bttrlazyloading" alt="New Edge Networks Product Demo" />
@@ -136,7 +148,7 @@
                         </ul>
                         <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS, Timeline Animation</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Welch Allyn Clinician Notifier</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/welchallyn_thumb.jpg" class="img-responsive bttrlazyloading" alt="Welch Allyn Product Demo" />
@@ -152,7 +164,7 @@
                         </ul>
                         <p><em>Technology:</em> Flash 8, Flash Lite, AS2, XHTML, CSS, Timeline Animation</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Alta Planning + Design</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/alta_thumb.jpg" class="img-responsive bttrlazyloading" alt="Alta Planning + Design Website" />
@@ -169,7 +181,7 @@
                         </ul>
                         <p><em>Technology:</em> Flash CS3, AS3, XHTML, CSS, Timeline Animation</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Lightspeed Technologies</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/lightspeed_thumb.jpg" class="img-responsive bttrlazyloading" alt="Lightspeed Technologies Product Demo" />
@@ -181,7 +193,7 @@
                         <p><em>Task:</em> The Flash application demonstrates the benefits of classroom amplification through the use of two products. Each introduction animation sequence can be viewed when the page is refreshed. A custom video player created especially for the site presents video showcasing both products.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML, Timeline Animation</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>The Dapper Frog</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/dapperfrog_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dapper Frog Featured Product Navigation" />
@@ -193,7 +205,7 @@
                         <p><em>Task:</em> The site employs a Flash navigational component that allows the consumer to jump to a specified category location. The four product categories pull the name, image and location for the product links from an XML document that is editable in the .NET CMS framework.</p>
                         <p><em>Technology:</em> Flash CS3, AS3, XML</p>
                     </div>
-                    <div class="row block">
+                    <div class="row block old">
                     	<h3>Market Strategies International</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/msi_thumb.jpg" class="img-responsive bttrlazyloading" alt="Market Strategies International Featured Product Navigation" />
