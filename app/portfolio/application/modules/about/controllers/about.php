@@ -4,7 +4,7 @@ class About extends MX_Controller {
 
 	public function index()
 	{
-		$data['title'] = 'About Richard Jackson &mdash; Front-End Web Developer';
+		$data['title'] = 'About Richard Jackson | Front End Web Developer';
 		$data['module'] = 'about';
 		$data['view_file'] = 'description';
 		echo Modules::run('templates/portfolio', $data);
