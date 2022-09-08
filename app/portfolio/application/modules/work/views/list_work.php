@@ -6,9 +6,57 @@
                                 <img src="files/images/providence-portal_thumb.jpg" class="img-responsive" alt="Providence Health Plan Portal" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> Providence. Hospital and health care services.</p>
+                        <p><em>Company:</em> Hospital and health care services.</p>
 						<p><em>Task:</em> Create an custom application that would allow clinitans in their hospitals to look up patient history as well as make appointments.</p>
-						<p><em>Technology:</em> Angualar 2, RxJS, Typescript, HTML5, CSS3</p>
+						<p><em>Technology:</em> Angualar 2, RxJS, Typescript, HTML5, CSS3, SCSS</p>
+                    </div>
+                    <div class="row block">
+                        <h3>JELD-WEN</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/jeld-wen_thumb.jpg" class="img-responsive bttrlazyloading" alt="JELD-WEN Website" />
+                            <noscript>
+                                <img src="files/images/jeld-wen_thumb.jpg" class="img-responsive" alt="JELD-WEN Website" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> Industry leaders in producing windows and doors.</p>
+						<p><em>Task:</em> Updated website with a more modern design, integrated with custom CMS.</p>
+						<p><em>Technology:</em> React, HTML5, CSS3, SCSS<a href="https://www.jeld-wen.com/" class="btn pull-right">View Site</a></p>
+                    </div>
+                    <div class="row block">
+                        <h3>CMD Agency Website</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/cmdagency-website_thumb.jpg" class="img-responsive bttrlazyloading" alt="CMD Agency Website" />
+                            <noscript>
+                                <img src="files/images/cmdagency-website_thumb.jpg" class="img-responsive" alt="CMD Agency Website" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
+						<p><em>Task:</em> Create a new style system for the companies website.</p>
+						<p><em>Technology:</em>React, HTML5, SCSS, CSS3 <a href="https://www.cmdagency.com/" class="btn pull-right">View Site</a></p>
+                    </div>
+                    <div class="row block">
+                        <h3>Microsoft In Culture</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/microsoft-ww84_thumb.jpg" class="img-responsive bttrlazyloading" alt="Microsoft In Culture Wonder Woman '84 Code Hunt" />
+                            <noscript>
+                                <img src="files/images/microsoft-ww84_thumb.jpg" class="img-responsive" alt="Microsoft In Culture Wonder Woman '84 Code Hunt" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> In Culture, a Division of Microsoft, is a public relations that showscases partnering of Microsoft with other people and companies.</p>
+						<p><em>Task:</em> Create a piece of a scavenger hunt puzzle to promote the Wonder Woman 84 moive.</p>
+						<p><em>Technology:</em> HTML5, CSS3, Gulp</p>
+                    </div>
+                    <div class="row block">
+                    	<h3>Trunk Monkey Advertising</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
+                            <noscript>
+                                <img src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive" alt="Trunk Monkey" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
+                        <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
+                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
                     </div>
 
                     <div class="row block old">
@@ -22,30 +70,6 @@
                         <p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
 						<p><em>Task:</em> This purpose of this re-design was to make it easier for students to find the correct course and assistance information.</p>
 						<p><em>Technology:</em> Drupal, JavaScript, jQuery, CSS <a href="http://www.pdx.edu/admissions/" class="btn pull-right">View Site</a></p>
-                    </div>
-                    <div class="row block" style="display: none;">
-                        <h3>CMD Agency Website</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/cmdagency-website_thumb.jpg" class="img-responsive bttrlazyloading" alt="CMD Agency Website" />
-                            <noscript>
-                                <img src="files/images/cmdagency-website_thumb.jpg" class="img-responsive" alt="CMD Agency Website" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> </p>
-						<p><em>Task:</em> Create a new style system for the companies website </p>
-						<p><em>Technology:</em>React, HTML5, SCSS, CSS3 <a href="https://www.cmdagency.com/" class="btn pull-right">View Site</a></p>
-                    </div>
-                    <div class="row block" style="display: none;">
-                        <h3>Microsoft In Culture</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/microsoft-ww84_thumb.jpg" class="img-responsive bttrlazyloading" alt="Microsoft In Culture Wonder Woman '84 Code Hunt" />
-                            <noscript>
-                                <img src="files/images/microsoft-ww84_thumb.jpg" class="img-responsive" alt="Microsoft In Culture Wonder Woman '84 Code Hunt" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
                     </div>
                     <div class="row block" style="display: none;">
                         <h3>Killerburger</h3>
@@ -65,18 +89,6 @@
                             <img data-bttrlazyloading-xs-src="files/images/portland-clinic_thumb.jpg" class="img-responsive bttrlazyloading" alt="The Portland Clinic Website" />
                             <noscript>
                                 <img src="files/images/portland-clinic_thumb.jpg" class="img-responsive" alt="The Portland Clinic Website" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
-                    </div>
-                    <div class="row block" style="display: none;">
-                        <h3>JELD-WEN</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/jeld-wen_thumb.jpg" class="img-responsive bttrlazyloading" alt="JELD-WEN Website" />
-                            <noscript>
-                                <img src="files/images/jeld-wen_thumb.jpg" class="img-responsive" alt="JELD-WEN Website" />
                             </noscript>
                         </span>
                         <p><em>Company:</em> ...</p>
@@ -215,7 +227,7 @@
                         <p><em>Task:</em> The Beer Carousal is the site main functionality feature. It incorporates the Drupal backend CMS to display the companies selection of beers as well as a catalyst to drive the user into the site for more information.</p>
                         <p><em>Technology:</em> Javascript, jQuery, HTML, CSS, Drupal</p>
                     </div>
-                    <div class="row block old">
+                    <div class="row block old" style="display: none";>
                     	<h3>Produce Row</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/producerowpdx.jpg" class="img-responsive bttrlazyloading" alt="Produce Row" />
@@ -225,19 +237,7 @@
                         </span>
                         <p><em>Company:</em> Produce Row is part of Portland's revitalization project. The site is used to build community awareness of the surrounding business that reside.</p>
                         <p><em>Task:</em> The application incorporated Google Maps API with the Wordpress CMS to dynamically add submitted businesses to display on a interactive map.</p>
-                        <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API <a href="http://www.producerowpdx.com/locate/" class="btn pull-right">View Site</a></p>
-                    </div>
-                    <div class="row block old keep">
-                    	<h3>Trunk Monkey Advertising</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
-                            <noscript>
-                                <img src="files/images/trunkmonkeyadvertising.jpg" class="img-responsive" alt="Trunk Monkey" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
-                        <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
-                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
+                        <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API <a href="http://www.producerowpdx.com/locate/" class="btn pull-right" style="diplay: none">View Site</a></p>
                     </div>
                     <div class="row block old">
                     	<h3>Sorel Boots</h3>
@@ -349,40 +349,4 @@
                             <li>2008 W3 Award: Silver Award for Transportation Web site</li>
                         </ul>
                         <p><em>Technology:</em> Flash CS3, AS3, XHTML, CSS, Timeline Animation</p>
-                    </div>
-                    <div class="row block old">
-                    	<h3>Lightspeed Technologies</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/lightspeed_thumb.jpg" class="img-responsive bttrlazyloading" alt="Lightspeed Technologies Product Demo" />
-                            <noscript>
-                                <img src="files/images/lightspeed_thumb.jpg" class="img-responsive" alt="Lightspeed Technologies Product Demo" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Lightspeed Technologies is a provider of wireless systems for classroom amplification technology which works to evenly distribute the teacher’s voice throughout the classroom.</p>
-                        <p><em>Task:</em> The Flash application demonstrates the benefits of classroom amplification through the use of two products. Each introduction animation sequence can be viewed when the page is refreshed. A custom video player created especially for the site presents video showcasing both products.</p>
-                        <p><em>Technology:</em> Flash CS3, AS3, XML, Timeline Animation</p>
-                    </div>
-                    <div class="row block old">
-                    	<h3>The Dapper Frog</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/dapperfrog_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dapper Frog Featured Product Navigation" />
-                            <noscript>
-                                <img src="files/images/dapperfrog_thumb.jpg" class="img-responsive" alt="Dapper Frog Featured Product Navigation" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> The Dapper Frog provides high-quality art, home d&eacute;cor, and lifestyle products locally through its Oregon chain of retail galleries and worldwide through its web presence.</p>
-                        <p><em>Task:</em> The site employs a Flash navigational component that allows the consumer to jump to a specified category location. The four product categories pull the name, image and location for the product links from an XML document that is editable in the .NET CMS framework.</p>
-                        <p><em>Technology:</em> Flash CS3, AS3, XML</p>
-                    </div>
-                    <div class="row block old" style="display: none;">
-                    	<h3>Market Strategies International</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/msi_thumb.jpg" class="img-responsive bttrlazyloading" alt="Market Strategies International Featured Product Navigation" />
-                            <noscript>
-                                <img src="files/images/msi_thumb.jpg" class="img-responsive" alt="Market Strategies International Featured Product Navigation" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Market Strategies International is a top-tier research and strategic consulting firm offering custom and syndicated research since 1989.</p>
-                        <p><em>Task:</em> The Flash application showcases the five core industry specialties: healthcare, communications, energy, technology, and financial services.</p>
-                        <p><em>Technology:</em> Flash CS3, AS3, XML</p>
                     </div>

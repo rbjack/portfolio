@@ -23,7 +23,7 @@
     <body id="<?php echo $module ?>">
         <div class="container-fluid">
             <div class="row">
-                <header class="header col-sm-4">
+                <header class="header col-sm-3">
                     <div class="navbar navbar-inverse" role="navigation">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </header>
-                <div class="content col-sm-8 col-sm-push-4">
+                <div class="content col-sm-9 col-sm-push-3">
                     <?php $this->load->view($module.'/'.$view_file); ?>
 
                 </div>

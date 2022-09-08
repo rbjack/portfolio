@@ -6,3 +6,6 @@
 /app/portfolio/application/cache/!index.html
 /app/portfolio/application/cache/!.htaccess
 /public/files
+
+/app/portfolio/node_modules
+/app/portfolio/temp
