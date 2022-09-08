@@ -14,12 +14,10 @@ function getTask(task) {
   return require('./tasks/' + task)(gulp, plugins, argv);
 }
 
-//gulp.task('clean', getTask('clean'));
 gulp.task('stylesheets', getTask('stylesheets'));
 
 // ------------------------------------------ NPM Start Task
 gulp.task('default', gulp.series(
-  //'clean',
   'stylesheets'
   )
 );
