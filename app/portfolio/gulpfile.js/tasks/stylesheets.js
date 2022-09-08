@@ -1,7 +1,7 @@
 // =========================================================
 // Gulp Task: stylesheets
 // Description: complie scss files into css
-// Dependencies: npm install --save-dev gulp-sass sass gulp-postcss postcss-merge-rules postcss-merge-queries cssnano autoprefixer tailwindcss @tailwindcss/typography node-sass-import-once
+// Dependencies: npm install --save-dev gulp-sass sass gulp-postcss postcss-merge-rules postcss-merge-queries cssnano autoprefixer node-sass-import-once
 // =========================================================
 
 const autoprefixer = require('autoprefixer');

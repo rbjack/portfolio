@@ -1,7 +1,3 @@
-// const os = require('os')
-// const fs = require('fs')
-// const path = require('path')
-// const del = require('del')
 const gulp = require('gulp');
 const argv = require('yargs').argv;
 const plugins = require('gulp-load-plugins')({
@@ -11,7 +7,6 @@ const plugins = require('gulp-load-plugins')({
     }
   }
 });
-//const projectPath = require('./lib/projectPath')
 
 
 // ---------------- function to get tasks from `tasks` folder
