@@ -162,6 +162,8 @@ body {
 @media (min-width: $screen-xs-min) {
 	
 	.content {
+
+		padding-top: math.div($grid-gutter-width, 2);
 		
 		.block {
 			margin: 0 0 math.div($grid-gutter-width, 2);

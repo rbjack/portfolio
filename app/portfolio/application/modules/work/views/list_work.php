@@ -47,43 +47,6 @@
 						<p><em>Technology:</em> HTML5, CSS3, Gulp</p>
                     </div>
                     <div class="row block">
-                    	<h3>Trunk Monkey Advertising</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising_thumb.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
-                            <noscript>
-                                <img src="files/images/trunkmonkeyadvertising_thumb.jpg" class="img-responsive" alt="Trunk Monkey" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
-                        <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
-                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
-                    </div>
-
-                    <div class="row block old keep">
-                        <h3>PSU Admissions</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/psu-admissions.jpg" class="img-responsive bttrlazyloading" alt="PSU Admissions" />
-                            <noscript>
-                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="PSU Admissions" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
-						<p><em>Task:</em> This purpose of this re-design was to make it easier for students to find the correct course and assistance information.</p>
-						<p><em>Technology:</em> Drupal 7, JavaScript, jQuery, CSS</p>
-                    </div>
-                    <div class="row block" style="display: none;">
-                        <h3>Killerburger</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/killer-burger_thumb.jpg" class="img-responsive bttrlazyloading" alt="Killerburger Wordpress Website" />
-                            <noscript>
-                                <img src="files/images/killer-burger_thumb.jpg" class="img-responsive" alt="Killerburger Wordpress Website" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
-                    </div>
-                    <div class="row block" style="display: none;">
                         <h3>The Portland Clinic</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/portland-clinic_thumb.jpg" class="img-responsive bttrlazyloading" alt="The Portland Clinic Website" />
@@ -91,35 +54,23 @@
                                 <img src="files/images/portland-clinic_thumb.jpg" class="img-responsive" alt="The Portland Clinic Website" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
+                        <p><em>Company:</em> The Portland Clinic cares for the health and well-being of the community, improving quality and high-performance standards.</p>
+						<p><em>Task:</em> Deliver a Wordpress website with a new inspired layout design with an improved clinician search filter.</p>
+						<p><em>Technology:</em> Wordpress, JavasScript, CSS3, HTML5 <a href="https://www.theportlandclinic.com/" class="btn pull-right">View Site</a></p>
                     </div>
-                    <div class="row block" style="display: none;">
-                        <h3>Trunk Monkey Advertising</h3>
+                    <div class="row block">
+                        <h3>Killerburger</h3>
                         <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising_thumb.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
+                            <img data-bttrlazyloading-xs-src="files/images/killer-burger_thumb.jpg" class="img-responsive bttrlazyloading" alt="Killerburger Wordpress Website" />
                             <noscript>
-                                <img src="files/images/trunkmonkeyadvertising_thumb.jpg" class="img-responsive" alt="Trunk Monkey" />
+                                <img src="files/images/killer-burger_thumb.jpg" class="img-responsive" alt="Killerburger Wordpress Website" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
-                        <p><em>Task:</em> The Application uses JavaScript navigation to communicate to load the appropriate video referenced in the document attribute data.</p>
-                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
+                        <p><em>Company:</em> Killerburger is a franchised fast food restaurant that serves burgers and fries.</p>
+						<p><em>Task:</em> Build a new Wordpress website, customized to the clients new proposed layout design.</p>
+						<p><em>Technology:</em> Wordpress, HTML5, CSS3</p>
                     </div>
-                    <div class="row block" style="display: none;">
-                        <h3>GoGo Squeez</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/gogo-squeez-color_thumb.jpg" class="img-responsive bttrlazyloading" alt="GoGo Squeez Crayola Sweepstakes Landing Page" />
-                            <noscript>
-                                <img src="files/images/gogo-squeez-color_thumb.jpg" class="img-responsive" alt="GoGo Squeez Crayola Sweepstakes Landing Page" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
-                    </div>
-                    <div class="row block" style="display: none;">
+                    <div class="row block">
                         <h3>Intel</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/intel-emails_thumb.jpg" class="img-responsive bttrlazyloading" alt="Intel HTML Emails" />
@@ -127,11 +78,11 @@
                                 <img src="files/images/intel-emails_thumb.jpg" class="img-responsive" alt="Intel HTML Emails" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
+                        <p><em>Company:</em> Intel's innovation in cloud computing, data center, Internet of Things, and PC solutions is powering the smart and connected digital world we live in.</p>
+						<p><em>Task:</em> Create HTML email templates to be integrated into Intels email system.</p>
+						<p><em>Technology:</em> HTML, CSS, Responsive, Light/Dark Color Mode</p>
                     </div>
-                    <div class="row block" style="display: none;">
+                    <div class="row block">
                         <h3>Banner Bank</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/banner-bank-ads_thumb.jpg" class="img-responsive bttrlazyloading" alt="Banner Bank Web Banner Ads" />
@@ -139,33 +90,46 @@
                                 <img src="files/images/banner-bank-ads_thumb.jpg" class="img-responsive" alt="Banner Bank Web Banner Ads" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
+                        <p><em>Company:</em> Banner Bank  provides tailored solutions, expert guidance and local decision-making for personal banking clients and businesses of all sizes.</p>
+						<p><em>Task:</em> Create online Banner Ads to be placed in local community websites near where their branches are located.</p>
+						<p><em>Technology:</em> Google Web Designer, PNG Sprites</p>
                     </div>
-                    <div class="row block" style="display: none;">
+                    <div class="row block">
                         <h3>Built with BMC</h3>
                         <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/bmc-hs-email_thumb.jpg" class="img-responsive bttrlazyloading" alt="BMC Pardot Email Template" />
+                            <img data-bttrlazyloading-xs-src="files/images/bmc-pardot-lp_thumb.jpg" class="img-responsive bttrlazyloading" alt="BMC Pardot Landing Page Template" />
                             <noscript>
-                                <img src="files/images/bmc-hs-email_thumb.jpg" class="img-responsive" alt="BMC Pardot Email Template" />
+                                <img src="files/images/bmc-pardot-lp_thumb.jpg" class="img-responsive" alt="BMC Pardot Landing Page Template" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
+                        <p><em>Company:</em> BMC partners with all types of builders &mdash; production, custom, multi-family, remodelers &mdash; to solve challenges and deliver value.</p>
+						<p><em>Task:</em> Create a Pardot landing page template that get traffic directed from their Pardot email campaign.</p>
+						<p><em>Technology:</em> HTML, CSS</p>
                     </div>
-                    <div class="row block" style="display: none;">
+                    <div class="row block">
                         <h3>Built with BMC</h3>
                         <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/bmc-hs-lp_thumb.jpg" class="img-responsive bttrlazyloading" alt="BMC Pardot Landing Page Template" />
+                            <img data-bttrlazyloading-xs-src="files/images/bmc-pardot-email_thumb.jpg" class="img-responsive bttrlazyloading" alt="BMC Pardot Email Template" />
                             <noscript>
-                                <img src="files/images/bmc-hs-lp_thumb.jpg" class="img-responsive" alt="BMC Pardot Landing Page Template" />
+                                <img src="files/images/bmc-pardot-email_thumb.jpg" class="img-responsive" alt="BMC Pardot Email Template" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
+                        <p><em>Company:</em> BMC partners with all types of builders &mdash; production, custom, multi-family, remodelers &mdash; to solve challenges and deliver value.</p>
+						<p><em>Task:</em> Create a Pardot email template that redirects to their Pardot landing page.</p>
+						<p><em>Technology:</em> HTML5, CSS3</p>
+                    </div>
+
+                    <div class="row block">
+                        <h3>GoGo Squeez</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/gogo-squeez-color_thumb.jpg" class="img-responsive bttrlazyloading" alt="GoGo Squeez Crayola Sweepstakes Landing Page" />
+                            <noscript>
+                                <img src="files/images/gogo-squeez-color_thumb.jpg" class="img-responsive" alt="GoGo Squeez Crayola Sweepstakes Landing Page" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> GoGo Squeez  makes healthy snacks for kids like applesauce, yogurt and pudding is squeezable pouches.</p>
+						<p><em>Task:</em> Create a landing page for a back-to-school sweepstakes campaign partnership with Crayola.</p>
+						<p><em>Technology:</em> Wordpress, HTML5, CSS3, Responsive, Animated SVG</p>
                     </div>
                     <div class="row block" style="display: none;">
                         <h3>Carolina Healthworks</h3>
@@ -203,6 +167,31 @@
 						<p><em>Task:</em> ...</p>
 						<p><em>Technology:</em> ...</p>
                     </div>
+
+                    <div class="row block old keep">
+                    	<h3>Trunk Monkey Advertising</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/trunkmonkeyadvertising_thumb.jpg" class="img-responsive bttrlazyloading" alt="Trunk Monkey" />
+                            <noscript>
+                                <img src="files/images/trunkmonkeyadvertising_thumb.jpg" class="img-responsive" alt="Trunk Monkey" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> R/West selling the concept of the trunk monkey to auto dealerships. The content can be repurposed to include themselves into the script as well as their company logo and catch phrase.</p>
+                        <p><em>Task:</em> The Application uses JavaScript navigation to communicate with flash to load the appropriate video referenced in the XML document.</p>
+                        <p><em>Technology:</em> HTML, CSS, JavaScript<a href="http://www.trunkmonkeyadvertising.com/" class="btn pull-right">View Site</a></p>
+                    </div>
+                    <div class="row block old keep">
+                        <h3>PSU Admissions</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/psu-admissions.jpg" class="img-responsive bttrlazyloading" alt="PSU Admissions" />
+                            <noscript>
+                                <img src="files/images/psu-admissions.jpg" class="img-responsive" alt="PSU Admissions" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> PSU Admissions manages enrollment and student affairs. They&rsquo;re located in Portland, Oregon</p>
+						<p><em>Task:</em> This purpose of this re-design was to make it easier for students to find the correct course and assistance information.</p>
+						<p><em>Technology:</em> Drupal 7, JavaScript, jQuery, CSS</p>
+                    </div>
                     <div class="row block old keep">
                     	<h3>BridgePort Brewery</h3>
                         <span class="img-container">
@@ -228,7 +217,7 @@
                         <p><em>Technology:</em> Wordpress, CSS, JavaScript, jQuery, Google Maps API</p>
                     </div>
                     <div class="row block old keep">
-                    	<h3>FTFCU Giant Ear</h3>
+                    	<h3>First Tech Federal Credit Union</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/giantear.jpg" class="img-responsive bttrlazyloading" alt="Giant Ear" />
                             <noscript>
@@ -274,80 +263,4 @@
                         <p><em>Company:</em> Adidas Trends &amp; Lifestyle Marketing works strategically to increase brand awareness and better the adidas image among a specific target audience of local trendsetter's.</p>
                         <p><em>Task:</em> This Flash site displays product images found in trend setting magazines. It's showcased for the company through their intranet. The image viewer gets the information and image locations from organized objects in an external SWF.</p>
                         <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS </p>
-                    </div>
-
-                    <div class="row block old delete">
-                    	<h3>Dante&rsquo;s Inferno</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/dantesinferno_thumb.jpg" class="img-responsive bttrlazyloading" alt="Dante&rsquo;s Inferno" />
-                            <noscript>
-                                <img src="files/images/dantesinferno_thumb.jpg" class="img-responsive" alt="Dante&rsquo;s Inferno" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Dante&rsquo;s Inferno is a video game created by Electronic Arts Inc. It is about as Italian mercenary Dante who returns home to find that his beloved Beatrice has been murdered. He gives chase and follows her to hell to bring her back.</p>
-                        <p><em>Task:</em> This microsite was created as part of a puzzle campaign for EA. It&rsquo;s purpose is to reward dedicated fans a chance to upload their photo and become part of the game.</p>
-                        <p><em>Technology:</em> Flash CS4, AS3, Timeline Animation, XHTML, CSS, JavaScript </p>
-                    </div>
-                    <div class="row block old delete">
-                    	<h3>Stash Tea</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/stashtea_thumb.jpg" class="img-responsive bttrlazyloading" alt="Stash Tea Selector" />
-                            <noscript>
-                                <img src="files/images/stashtea_thumb.jpg" class="img-responsive" alt="Stash Tea Selector" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Stash Tea is one of the largest specialty tea companies in the United States.</p>
-                        <p><em>Task:</em> The World of Tea selector helps consumers familiar and not so familiar with tea find suitable types from an interactive set of choices. Tea and Character type are editable from an XML document. Based on the selections the Flash application makes a web service call to a database, returning compatible results.</p>
-                        <p><em>Technology:</em> Flash CS3, AS3, XML</p>
-                    </div>
-                    <div class="row block old delete">
-                    	<h3>New Edge Networks</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/nen_thumb.jpg" class="img-responsive bttrlazyloading" alt="New Edge Networks Product Demo" />
-                            <noscript>
-                                <img src="files/images/nen_thumb.jpg" class="img-responsive" alt="New Edge Networks Product Demo" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> New Edge Networks (NEN) is known for being a single-source provider of network solutions to companies of all sizes and industries.</p>
-                        <p><em>Task:</em> This Flash-based product demonstration allows NEN salespeople to showcase the benefits and depth of their suite of network solutions.</p>
-                        <ul>
-                            <em>Awards:</em>
-                            <li>2007 International Creativity Awards: Platinum Award for Demo/Presentation Video</li>
-                            <li>2007 W3 Awards: Silver Award for Technology/Science Interactive Demo</li>
-                            <li>2007 International Davey Awards: Silver Award for Flash Sales Demo</li>
-                        </ul>
-                        <p><em>Technology:</em> Flash 8, AS2, XHTML, CSS, Timeline Animation</p>
-                    </div>
-                    <div class="row block old delete">
-                    	<h3>Welch Allyn Clinician Notifier</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/welchallyn_thumb.jpg" class="img-responsive bttrlazyloading" alt="Welch Allyn Product Demo" />
-                            <noscript>
-                                <img src="files/images/welchallyn_thumb.jpg" class="img-responsive" alt="Welch Allyn Product Demo" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Welch Allyn is a global manufacturer of medical diagnostic equipment that helps frontline practitioners work more effectively and efficiently with their patients.</p>
-                        <p><em>Task:</em> This Flash-based product demonstration allows Welch Allyn salespeople to showcase their products online or through a PDA device. The application lets viewers select a task or scenario, and then launches a step-by-step animation showing the completion of the task or objective.</p>
-                        <ul>
-                            <em>Awards:</em>
-                            <li>2008 Communicator Award: Award of Distinction for Flash Demo </li>
-                        </ul>
-                        <p><em>Technology:</em> Flash 8, Flash Lite, AS2, XHTML, CSS, Timeline Animation</p>
-                    </div>
-                    <div class="row block old delete">
-                    	<h3>Alta Planning + Design</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/alta_thumb.jpg" class="img-responsive bttrlazyloading" alt="Alta Planning + Design Website" />
-                            <noscript>
-                                <img src="files/images/alta_thumb.jpg" class="img-responsive" alt="Alta Planning + Design Website" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Alta Planning + Design are the world-leading consultants for sustainable, alternative transportation designs for communities and cities. </p>
-                        <p><em>Task:</em> The new re-design and branding of the site was created in XHTML and CSS that was hooked into a .NET CMS. The Slideshow demonstration on the homepage was created by hand on the Flash timeline.</p>
-                        <ul>
-                            <em>Awards:</em>
-                            <li>2009 Communicator Award: Award of Distinction for Transportation Web site</li>
-                            <li>2008 W3 Award: Silver Award for Transportation Web site</li>
-                        </ul>
-                        <p><em>Technology:</em> Flash CS3, AS3, XHTML, CSS, Timeline Animation</p>
                     </div>
