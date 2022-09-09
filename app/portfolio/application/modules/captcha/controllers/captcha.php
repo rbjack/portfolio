@@ -35,7 +35,7 @@ class Captcha extends MX_Controller {
 		$security_code = array('security_code'=>$code);
 		$this->session->set_userdata($security_code);
 		
-		$this->CaptchaSecurityImages('99','34',$code);
+		$this->CaptchaSecurityImages('99','42',$code);
 	}
 
 	function generateCode($characters)

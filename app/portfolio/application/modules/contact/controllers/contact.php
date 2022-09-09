@@ -13,7 +13,7 @@ class Contact extends MX_Controller {
 		$this->form_validation->set_rules('message', 'Message', 'trim|required|xss_clean');
 		$this->form_validation->set_rules('captcha', 'Captcha', 'trim|required|exact_length[5]|alhpa_numeric|callback_match_captcha['.set_value('captcha').']');
 		
-		$data['title'] = 'Contact Richard Jackson &mdash; Front-End Web Developer';
+		$data['title'] = 'Contact Richard Jackson | Front End Web Developer';
 		$data['module'] = 'contact';
 		$data['view_file'] = 'form';
 

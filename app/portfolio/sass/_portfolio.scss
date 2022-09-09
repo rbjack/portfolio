@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* portfolio */
 
 $colorBlack: #000000;
@@ -25,8 +27,8 @@ body {
 @media (min-width: $screen-sm-min) {
 
 	.header {
-		background: $colorGrayDark inline-image('gradient.jpg') repeat-y top right;
-		background-image: inline-image('gradient.jpg'), url('images/texture-wood-verticle.jpg');
+		background: $colorGrayDark url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAAQAdAwERAAIRAQMRAf/EAFMAAQEBAAAAAAAAAAAAAAAAAAAHCgEBAAAAAAAAAAAAAAAAAAAAABABAAAHAAAAAAAAAAAAAAAAAAGyA3MENgcRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMgnJNWw7FKWAKmAAD//2Q==') repeat-y top right;
+		background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAAQAdAwERAAIRAQMRAf/EAFMAAQEBAAAAAAAAAAAAAAAAAAAHCgEBAAAAAAAAAAAAAAAAAAAAABABAAAHAAAAAAAAAAAAAAAAAAGyA3MENgcRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMgnJNWw7FKWAKmAAD//2Q=='), url('images/texture-wood-verticle.jpg');
 		background-position: top right, top right;
 		background-repeat: repeat-y, repeat;
 		height: 100%;
@@ -48,9 +50,10 @@ body {
 			.navbar-brand {
 				background: url('images/logo-horizontal.png') no-repeat top right;
 				color: $colorBlack;
+				font-size: 18px;
 				font-weight: bold;
 				letter-spacing: 1px;
-				line-height: 40px;
+				line-height: 45px;
 				margin-bottom: -18px;
 				margin-left: -3px;
 				min-height: 72px;
@@ -89,7 +92,7 @@ body {
 					color: $colorBlack;
 					display: block;
 					float: right;
-					line-height: 40px;
+					line-height: 48px;
 					margin-bottom: 0;
 					min-height: 93px;
 					min-width: 220px;
@@ -112,6 +115,7 @@ body {
 						a {
 							background-color: $colorYellow;
 							color: $colorBlack;
+							font-size: 18px;
 							font-weight: bold;
 							letter-spacing: 0.5px;
 							padding-top: 8px;
@@ -145,8 +149,8 @@ body {
 	}
 
 	.row {
-		padding: ($grid-gutter-width / 2);
-		margin-bottom: ($grid-gutter-width / 2);
+		padding: math.div($grid-gutter-width, 2);
+		margin-bottom: math.div($grid-gutter-width, 2);
 	}
 
 	a {
@@ -158,9 +162,11 @@ body {
 @media (min-width: $screen-xs-min) {
 	
 	.content {
+
+		padding-top: math.div($grid-gutter-width, 2);
 		
 		.block {
-			margin: 0 0 ($grid-gutter-width / 2);
+			margin: 0 0 math.div($grid-gutter-width, 2);
 		}
 	}
 }
@@ -169,12 +175,12 @@ body {
 
 	.content {
 		padding-right: $grid-gutter-width;
-		margin: 0 0 ($grid-gutter-width / 2);
+		margin: 0 0 math.div($grid-gutter-width, 2);
 
 		.block {
-			margin: ($grid-gutter-width / 2) 0;
-			max-width: 620px;
-			padding: ($grid-gutter-width / 2);
+			margin: math.div($grid-gutter-width, 2) 0;
+			max-width: 920px;//620px;
+			padding: math.div($grid-gutter-width, 1.5);
 		}
 	}
 }
@@ -194,7 +200,7 @@ body {
 
 		img {
 			margin: 0 auto;
-			padding-bottom: ($grid-gutter-width / 2);
+			padding-bottom: math.div($grid-gutter-width, 2);
 		}
 	}
 }
@@ -209,7 +215,7 @@ body {
 				float: left;
 				margin: 0;
 				padding-bottom: 0;
-				padding-right: ($grid-gutter-width / 2);
+				padding-right: math.div($grid-gutter-width, 2);
 			}
 		}
 	}
@@ -225,11 +231,11 @@ body {
 		.img-container {
 			background: $colorGrayDark;
 			border-bottom: 1px solid $colorGrayDark;
-			border-left: ($grid-gutter-width / 2) solid $colorGrayDark;
-			min-height: 35px;
+			border-left: math.div($grid-gutter-width, 2) solid $colorGrayDark;
+			min-height: 42px;
 			min-width: 114px;
 			position: absolute;
-			right: ($grid-gutter-width / 2);
+			right: math.div($grid-gutter-width, 2);
 			z-index: 1;
 		}
 	}
@@ -256,7 +262,7 @@ body {
 
 	ul.errors {
 		background-color: $colorBlack;
-		padding: ($grid-gutter-width / 2);
+		padding: math.div($grid-gutter-width, 2);
 
 		h3 {
 			font-size: $font-size-large;
@@ -289,7 +295,7 @@ body {
 
 			button {
 				position: absolute;
-				right: ($grid-gutter-width / 2);
+				right: math.div($grid-gutter-width, 2);
 				z-index: 1;
 			}
 		}
@@ -333,7 +339,7 @@ body {
 		.img-container {
 			display: block;
 			height: 0;
-			margin-bottom: ($line-height-computed / 2);
+			margin-bottom: math.div($line-height-computed, 2);
 			padding-bottom: 62%;
 			position: relative;
 			overflow: hidden;
@@ -366,7 +372,7 @@ body {
 
 			li {
 				list-style-position: inside;
-				margin-left: ($grid-gutter-width / 2);
+				margin-left: math.div($grid-gutter-width, 2);
 			}
 		}
 
@@ -375,7 +381,7 @@ body {
 			background-color: $colorYellow;
 			border-radius: 0;
 			color: $colorBlack;
-			font-weight: bold;
+			font-weight: 500;//bold;
 		}
 	}
 }

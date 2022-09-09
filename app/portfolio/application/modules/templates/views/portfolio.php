@@ -23,7 +23,7 @@
     <body id="<?php echo $module ?>">
         <div class="container-fluid">
             <div class="row">
-                <header class="header col-sm-4">
+                <header class="header col-sm-3">
                     <div class="navbar navbar-inverse" role="navigation">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </header>
-                <div class="content col-sm-8 col-sm-push-4">
+                <div class="content col-sm-9 col-sm-push-3">
                     <?php $this->load->view($module.'/'.$view_file); ?>
 
                 </div>
@@ -74,12 +74,7 @@
         <script src="js/vendor/jquery.bttrlazyloading.min.js"></script>
         <script src="js/script.js"></script>
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-11924095-1', 'auto');ga('send', 'pageview');
-        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11924095-1"></script>
+        <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-11924095-1');</script>
     </body>
 </html>
