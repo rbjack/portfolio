@@ -1,16 +1,4 @@
                     <div class="row block">
-                        <h3>Providence</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/providence-portal_thumb.jpg" class="img-responsive bttrlazyloading" alt="Providence Health Plan Portal" />
-                            <noscript>
-                                <img src="files/images/providence-portal_thumb.jpg" class="img-responsive" alt="Providence Health Plan Portal" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> Hospital and health care services.</p>
-						<p><em>Task:</em> Create a custom application that would allow clinicians assist patients by look up their history as well as make appointments.</p>
-						<p><em>Technology:</em> Angualar 2, RxJS, Typescript, HTML5, CSS3, SCSS</p>
-                    </div>
-                    <div class="row block">
                         <h3>JELD-WEN</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/jeld-wen_thumb.jpg" class="img-responsive bttrlazyloading" alt="JELD-WEN Website" />
@@ -33,6 +21,18 @@
                         <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
 						<p><em>Task:</em> Create a new style system for the companies website.</p>
 						<p><em>Technology:</em>React, HTML5, SCSS, CSS3 <a href="https://www.cmdagency.com/" class="btn pull-right">View Site</a></p>
+                    </div>
+                    <div class="row block">
+                        <h3>Providence</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/providence-portal_thumb.jpg" class="img-responsive bttrlazyloading" alt="Providence Health Plan Portal" />
+                            <noscript>
+                                <img src="files/images/providence-portal_thumb.jpg" class="img-responsive" alt="Providence Health Plan Portal" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> Hospital and health care services.</p>
+						<p><em>Task:</em> Create a custom application that would allow clinicians assist patients by look up their history as well as make appointments.</p>
+						<p><em>Technology:</em> Angualar 2, RxJS, Typescript, HTML5, CSS3, SCSS</p>
                     </div>
                     <div class="row block">
                         <h3>Microsoft In Culture</h3>
@@ -104,7 +104,7 @@
                         </span>
                         <p><em>Company:</em> BMC partners with all types of builders &mdash; production, custom, multi-family, remodelers &mdash; to solve challenges and deliver value.</p>
 						<p><em>Task:</em> Create a Pardot landing page template that get traffic directed from their Pardot email campaign.</p>
-						<p><em>Technology:</em> HTML, CSS</p>
+						<p><em>Technology:</em> HTML5, CSS3</p>
                     </div>
                     <div class="row block">
                         <h3>Built with BMC</h3>
@@ -116,9 +116,8 @@
                         </span>
                         <p><em>Company:</em> BMC partners with all types of builders &mdash; production, custom, multi-family, remodelers &mdash; to solve challenges and deliver value.</p>
 						<p><em>Task:</em> Create a Pardot email template that redirects to their Pardot landing page.</p>
-						<p><em>Technology:</em> HTML5, CSS3</p>
+						<p><em>Technology:</em> HTML, CSS</p>
                     </div>
-
                     <div class="row block">
                         <h3>GoGo Squeez</h3>
                         <span class="img-container">
@@ -131,31 +130,7 @@
 						<p><em>Task:</em> Create a landing page for a back-to-school sweepstakes campaign partnership with Crayola.</p>
 						<p><em>Technology:</em> Wordpress, HTML5, CSS3, Responsive, Animated SVG</p>
                     </div>
-                    <div class="row block" style="display: none;">
-                        <h3>Carolina Healthworks</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/carolina-healthworks_thumb.jpg" class="img-responsive bttrlazyloading" alt="Carolina Healthworks Landing Page" />
-                            <noscript>
-                                <img src="files/images/carolina-healthworks_thumb.jpg" class="img-responsive" alt="Carolina Healthworks Landing Page" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
-                    </div>
-                    <div class="row block" style="display: none;">
-                        <h3>CMD Agency</h3>
-                        <span class="img-container">
-                            <img data-bttrlazyloading-xs-src="files/images/cmdagency-hs-email_thumb.jpg" class="img-responsive bttrlazyloading" alt="CMD Agency Hubspot Email Newsletter Template" />
-                            <noscript>
-                                <img src="files/images/cmdagency-hs-email_thumb.jpg" class="img-responsive" alt="CMD Agency Hubspot Email Newsletter Template" />
-                            </noscript>
-                        </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
-                    </div>
-                    <div class="row block" style="display: none;">
+                    <div class="row block">
                         <h3>CMD Agency</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/cmdagency-hs-lp_thumb.jpg" class="img-responsive bttrlazyloading" alt="CMD Agency Hubspot Landing Page Template" />
@@ -163,11 +138,34 @@
                                 <img src="files/images/cmdagency-hs-lp_thumb.jpg" class="img-responsive" alt="CMD Agency Hubspot Landing Page Template" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> ...</p>
-						<p><em>Task:</em> ...</p>
-						<p><em>Technology:</em> ...</p>
+                        <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
+						<p><em>Task:</em> Create internal client pitch sites to showcase customized casestudies and examples.</p>
+						<p><em>Technology:</em> Hubspot, JinJava Templates, Custom Components, HTML5, CSS3, JavaScript</p>
                     </div>
-
+                    <div class="row block">
+                        <h3>CMD Agency</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/cmdagency-hs-email_thumb.jpg" class="img-responsive bttrlazyloading" alt="CMD Agency Hubspot Email Newsletter Template" />
+                            <noscript>
+                                <img src="files/images/cmdagency-hs-email_thumb.jpg" class="img-responsive" alt="CMD Agency Hubspot Email Newsletter Template" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
+						<p><em>Task:</em> Create a Hubspot email newsletter template for internal and client agency updates.</p>
+						<p><em>Technology:</em> Hubspot, JinJava Templates, HTML, CSS</p>
+                    </div>
+                    <div class="row block">
+                        <h3>Atrium Health</h3>
+                        <span class="img-container">
+                            <img data-bttrlazyloading-xs-src="files/images/atrium-health_thumb.jpg" class="img-responsive bttrlazyloading" alt="Carolina Healthworks Landing Page" />
+                            <noscript>
+                                <img src="files/images/atrium-health_thumb.jpg" class="img-responsive" alt="Carolina Healthworks Landing Page" />
+                            </noscript>
+                        </span>
+                        <p><em>Company:</em> Atrium Health is a nationally recognized leader in shaping health outcomes based in Charlotte and North Carolina.</p>
+						<p><em>Task:</em> Create a landing page to drive traffic from an community awareness campaign.</p>
+						<p><em>Technology:</em> Bootstrap, HTML, CSS, Responsive</p>
+                    </div>
                     <div class="row block old keep">
                     	<h3>Trunk Monkey Advertising</h3>
                         <span class="img-container">
