@@ -6,8 +6,8 @@
                                 <img src="files/images/jeld-wen_thumb.jpg" class="img-responsive" alt="JELD-WEN Website" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> Industry leader in producing windows and doors.</p>
-						<p><em>Task:</em> Updated website with a more modern design, integrated with custom CMS.</p>
+                        <p><em>Company:</em> JELD-WEN is the leading manufactures in reliable windows and doors.</p>
+						<p><em>Task:</em> The task was to rebuild the website website with a more modern design that is integrated with a custom CMS.</p>
 						<p><em>Technology:</em> React, HTML5, CSS3, SCSS<a href="https://www.jeld-wen.com/" class="btn pull-right">View Site</a></p>
                     </div>
                     <div class="row block">
@@ -19,7 +19,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
-						<p><em>Task:</em> Create a new style system for the companies website.</p>
+						<p><em>Task:</em> The task was to create a new style system for the companies website.</p>
 						<p><em>Technology:</em>React, HTML5, SCSS, CSS3 <a href="https://www.cmdagency.com/" class="btn pull-right">View Site</a></p>
                     </div>
                     <div class="row block">
@@ -30,8 +30,8 @@
                                 <img src="files/images/providence-portal_thumb.jpg" class="img-responsive" alt="Providence Health Plan Portal" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> Hospital and health care services.</p>
-						<p><em>Task:</em> Create a custom application that would allow clinicians assist patients by look up their history as well as make appointments.</p>
+                        <p><em>Company:</em> Providence is a world-class health care service.</p>
+						<p><em>Task:</em> The outcome was to create a custom application that would allow clinicians assist patients by look up their history as well as make appointments.</p>
 						<p><em>Technology:</em> Angualar 2, RxJS, Typescript, HTML5, CSS3, SCSS</p>
                     </div>
                     <div class="row block">
@@ -54,11 +54,11 @@
                                 <img src="files/images/portland-clinic_thumb.jpg" class="img-responsive" alt="The Portland Clinic Website" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> The Portland Clinic cares for the health and well-being of the community, improving quality and high-performance standards.</p>
-						<p><em>Task:</em> Deliver a Wordpress website with a new inspired layout design with an improved clinician search filter.</p>
+                        <p><em>Company:</em> The Portland Clinic a community healthcare that cares for the health and well-being of the community, improving quality and high-performance standards.</p>
+						<p><em>Task:</em> We deliver a Wordpress website with a new inspired layout design with an improved clinician search filter.</p>
 						<p><em>Technology:</em> Wordpress, JavasScript, CSS3, HTML5 <a href="https://www.theportlandclinic.com/" class="btn pull-right">View Site</a></p>
                     </div>
-                    <div class="row block">
+                    <div class="row block" style="display: none;">
                         <h3>Killerburger</h3>
                         <span class="img-container">
                             <img data-bttrlazyloading-xs-src="files/images/killer-burger_thumb.jpg" class="img-responsive bttrlazyloading" alt="Killerburger Wordpress Website" />
@@ -67,7 +67,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> Killerburger is a franchised fast food restaurant that serves burgers and fries.</p>
-						<p><em>Task:</em> Build a new Wordpress website, customized to the clients new proposed layout design.</p>
+						<p><em>Task:</em> The task was to build a new Wordpress website, customized to the clients new proposed layout design.</p>
 						<p><em>Technology:</em> Wordpress, HTML5, CSS3</p>
                     </div>
                     <div class="row block">
@@ -79,7 +79,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> Intel's innovation in cloud computing, data center, Internet of Things, and PC solutions is powering the smart and connected digital world we live in.</p>
-						<p><em>Task:</em> Create HTML email templates to be integrated into Intels email system.</p>
+						<p><em>Task:</em> The deliverables were a built out HTML email templates to be integrated into Intels email system.</p>
 						<p><em>Technology:</em> HTML, CSS, Responsive, Light/Dark Color Mode</p>
                     </div>
                     <div class="row block">
@@ -90,8 +90,8 @@
                                 <img src="files/images/banner-bank-ads_thumb.jpg" class="img-responsive" alt="Banner Bank Web Banner Ads" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> Banner Bank  provides tailored solutions, expert guidance and local decision-making for personal banking clients and businesses of all sizes.</p>
-						<p><em>Task:</em> Create online Banner Ads to be placed in local community websites near where their branches are located.</p>
+                        <p><em>Company:</em> Banner Bank provides tailored solutions, expert guidance and local decision-making for personal banking clients and businesses of all sizes.</p>
+						<p><em>Task:</em> The task was to create online Banner Ads to be placed in local community websites near where their branches are located.</p>
 						<p><em>Technology:</em> Google Web Designer, PNG Sprites</p>
                     </div>
                     <div class="row block">
@@ -103,7 +103,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> BMC partners with all types of builders &mdash; production, custom, multi-family, remodelers &mdash; to solve challenges and deliver value.</p>
-						<p><em>Task:</em> Create a Pardot landing page template that get traffic directed from their Pardot email campaign.</p>
+						<p><em>Task:</em> The task was to create a Pardot landing page template that gets traffic directed from their Pardot email campaign.</p>
 						<p><em>Technology:</em> HTML5, CSS3</p>
                     </div>
                     <div class="row block">
@@ -115,7 +115,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> BMC partners with all types of builders &mdash; production, custom, multi-family, remodelers &mdash; to solve challenges and deliver value.</p>
-						<p><em>Task:</em> Create a Pardot email template that redirects to their Pardot landing page.</p>
+						<p><em>Task:</em> The task create a Pardot email template that redirects to their Pardot landing page.</p>
 						<p><em>Technology:</em> HTML, CSS</p>
                     </div>
                     <div class="row block">
@@ -126,8 +126,8 @@
                                 <img src="files/images/gogo-squeez-color_thumb.jpg" class="img-responsive" alt="GoGo Squeez Crayola Sweepstakes Landing Page" />
                             </noscript>
                         </span>
-                        <p><em>Company:</em> GoGo Squeez  makes healthy snacks for kids like applesauce, yogurt and pudding is squeezable pouches.</p>
-						<p><em>Task:</em> Create a landing page for a back-to-school sweepstakes campaign partnership with Crayola.</p>
+                        <p><em>Company:</em> GoGo Squeez makes healthy snacks for kids like applesauce, yogurt and pudding is squeezable pouches.</p>
+						<p><em>Task:</em> The deliverables were to create a landing page for a back-to-school sweepstakes campaign partnership with Crayola.</p>
 						<p><em>Technology:</em> Wordpress, HTML5, CSS3, Responsive, Animated SVG</p>
                     </div>
                     <div class="row block">
@@ -139,7 +139,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
-						<p><em>Task:</em> Create internal client pitch sites to showcase customized casestudies and examples.</p>
+						<p><em>Task:</em> The task was to create an internal client pitch sites to showcase customized casestudies and examples.</p>
 						<p><em>Technology:</em> Hubspot, JinJava Templates, Custom Components, HTML5, CSS3, JavaScript</p>
                     </div>
                     <div class="row block">
@@ -151,7 +151,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> CMD Agency is a marketing agency that partners with clients to provide strategy and delivers award winning campaigns.</p>
-						<p><em>Task:</em> Create a Hubspot email newsletter template for internal and client agency updates.</p>
+						<p><em>Task:</em> The task was to create a Hubspot email newsletter template for internal and client agency updates.</p>
 						<p><em>Technology:</em> Hubspot, JinJava Templates, HTML, CSS</p>
                     </div>
                     <div class="row block">
@@ -163,7 +163,7 @@
                             </noscript>
                         </span>
                         <p><em>Company:</em> Atrium Health is a nationally recognized leader in shaping health outcomes based in Charlotte and North Carolina.</p>
-						<p><em>Task:</em> Create a landing page to drive traffic from an community awareness campaign.</p>
+						<p><em>Task:</em> The deliverable was to create a landing page to drive traffic from an community awareness campaign.</p>
 						<p><em>Technology:</em> Bootstrap, HTML, CSS, Responsive</p>
                     </div>
                     <div class="row block old keep">
